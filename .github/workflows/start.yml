@@ -135,9 +135,11 @@ jobs:
           sudo cat /var/lib/zerotier-one/identity.secret
           echo "=========== END identity.secret ==========="
 
-      - name: 啟動 Forge Server（使用 screen）
+      - name: 啟動 Forge Server（screen + log）
         run: |
-          screen -L -dmS minecraft java -Xmx6G -Xms6G -jar forge-1.12.2-14.23.5.2860.jar nogui
+          mkdir -p logs
+          screen -L -Logfile logs/server.log -dmS minecraft \
+            java -Xmx6G -Xms6G -jar forge-1.12.2-14.23.5.2860.jar nogui
 
       - name: 顯示當前目錄與檔案
         run: |
@@ -145,6 +147,11 @@ jobs:
           pwd
           echo "檔案列表："
           ls -al
+
+      - name: 即時顯示 Minecraft Server Log
+        run: |
+          echo "📜 開始追蹤 server log..."
+          timeout 5h tail -f logs/server.log
 
       - name: Minecraft Server 運行中（最多 5 小時或手動關閉）
         run: |
