@@ -13,11 +13,11 @@ jobs:
       - name: 檢出 repo 檔案
         uses: actions/checkout@v4
 
-      - name: 安裝 Java 8
+      - name: 安裝 Java 20
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 8
+          java-version: 20
 
       - name: 安裝 Python 和 gdown
         run: |
@@ -27,11 +27,6 @@ jobs:
 
       - name: 安裝 screen
         run: sudo apt-get install -y screen
-
-      - name: 安裝 Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
 
       - name: 下載 world.zip（從 Google Drive）
         env:
