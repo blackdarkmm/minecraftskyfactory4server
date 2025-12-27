@@ -37,6 +37,11 @@ jobs:
           sudo chmod 600 /var/lib/zerotier-one/identity.secret
           sudo systemctl start zerotier-one
 
+      - name: 手動啟動 ZeroTier daemon
+        run: |
+          sudo /usr/sbin/zerotier-one -d /var/lib/zerotier-one &
+          sleep 5
+
       - name: 加入 ZeroTier 網路
         run: |
           for i in {1..30}; do
