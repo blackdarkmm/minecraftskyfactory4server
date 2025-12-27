@@ -10,12 +10,20 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
+      RCON_PASSWORD: ${{ secrets.RCON_PASSWORD }}
+      RCON_PORT: ${{ secrets.RCON_PORT }}
+      API_TOKEN: ${{ secrets.API_TOKEN }}
       ZT_IDENTITY_SECRET: ${{ secrets.ZT_IDENTITY_SECRET }}
+      ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
 
     steps:
       - name: 檢出 repo 檔案
         uses: actions/checkout@v4
+
+      - name: 替換 server.properties 中的 RCON 設定
+        run: |
+          sed -i "s|rcon.password=.*|rcon.password=${RCON_PASSWORD}|" server.properties
+          sed -i "s|rcon.port=.*|rcon.port=${RCON_PORT}|" server.properties
 
       - name: 安裝 Java 20
         uses: actions/setup-java@v4
@@ -50,7 +58,18 @@ jobs:
 
       - name: 安裝 ZeroTier CLI
         run: |
-          curl -s https://install.zerotier.com | sudo bash
+          for i in {1..5}; do
+            echo "Attempt $i to install ZeroTier"
+            curl -f -s https://install.zerotier.com -o install.sh && break
+            echo "Retrying in 5 seconds..."
+            sleep 5
+          done
+          if [ ! -f install.sh ]; then
+            echo "❌ Failed to download install script"
+            exit 1
+          fi
+          chmod +x install.sh
+          sudo ./install.sh
 
       - name: 匯入 ZeroTier 身份檔案（保證固定 IP）
         run: |
@@ -67,32 +86,43 @@ jobs:
             fi
             sleep 1
           done
-          echo "目前身份："
-          sudo cat /var/lib/zerotier-one/identity.public || echo "⚠️ 無法讀取身份"
 
-      - name: 加入 ZeroTier 網路
+      - name: 啟動 ZeroTier 服務並加入網路
         run: |
-          echo "✅ 等待 ZeroTier 服務啟動..."
-          for i in {1..10}; do
-            if sudo zerotier-cli info &>/dev/null; then
-              echo "✅ ZeroTier 服務已啟動"
-              break
-            fi
-            sleep 2
+          echo "✅ 檢查 ZeroTier 服務是否啟動..."
+          for i in {1..30}; do
+              if sudo zerotier-cli info &>/dev/null; then
+                  echo "✅ ZeroTier 服務已啟動"
+                  break
+              fi
+              echo "⏳ 等待 ZeroTier 服務啟動 ($i/30)"
+              sleep 2
+          done
+
+          echo "🕓 等待網路接口就緒..."
+          for i in {1..20}; do
+              if ip link show | grep -q zt; then
+                  echo "✅ ZeroTier 網路接口已就緒"
+                  break
+              fi
+              sleep 2
           done
 
           echo "🚀 嘗試加入 ZeroTier 網路：$ZT_NETWORK_ID"
-          sudo zerotier-cli join $ZT_NETWORK_ID
+          sudo zerotier-cli join $ZT_NETWORK_ID || {
+              echo "❌ 加入 ZeroTier 網路失敗"
+              exit 1
+          }
 
-          echo "🕓 等待 ZeroTier 成功連線..."
+          echo "🕓 等待 ZeroTier 網路狀態 OK..."
           for i in {1..20}; do
-            STATUS=$(sudo zerotier-cli listnetworks | grep $ZT_NETWORK_ID | awk '{print $5}')
-            echo "目前狀態：$STATUS"
-            if [[ "$STATUS" == "OK" ]]; then
-              echo "✅ 已成功加入 ZeroTier 網路"
-              break
-            fi
-            sleep 3
+              STATUS=$(sudo zerotier-cli listnetworks | grep $ZT_NETWORK_ID | awk '{print $5}')
+              echo "目前狀態：$STATUS"
+              if [[ "$STATUS" == "OK" ]]; then
+                  echo "✅ 已成功加入 ZeroTier 網路"
+                  break
+              fi
+              sleep 3
           done
 
       - name: 顯示 ZeroTier IP
@@ -102,13 +132,40 @@ jobs:
         run: |
           screen -L -dmS minecraft java -Xmx6G -Xms6G -jar forge-1.12.2-14.23.5.2860.jar nogui
 
-      # 伺服器運行、備份、壓縮、上傳步驟保持不變
+      - name: 顯示當前目錄與檔案
+        run: |
+          echo "目前目錄："
+          pwd
+          echo "檔案列表："
+          ls -al
+
+      - name: Minecraft Server 運行中（最多 5 小時或手動關閉）
+        run: |
+          start_time=$(date +%s)
+          timeout=$((5 * 60 * 60)) # 5 小時
+          while screen -list | grep -q "minecraft"; do
+            now=$(date +%s)
+            elapsed=$((now - start_time))
+            if [ $elapsed -ge $timeout ]; then
+              echo "已達 5 小時，準備自動關閉伺服器..."
+              break
+            fi
+            sleep 10
+          done
+
+      - name: 優雅關閉 Minecraft 伺服器（如果還活著）
+        run: |
+          if screen -list | grep -q "minecraft"; then
+            screen -S minecraft -p 0 -X stuff "save-all flush$(printf \\r)"
+            screen -S minecraft -p 0 -X stuff "stop$(printf \\r)"
+            sleep 15
+          fi
+
       - name: 壓縮世界
         run: zip -r world.zip world
 
       - name: 安裝 rclone
-        run: |
-          curl https://rclone.org/install.sh | sudo bash
+        run: curl https://rclone.org/install.sh | sudo bash
 
       - name: 寫入 rclone 設定檔（base64）
         run: |
@@ -118,11 +175,7 @@ jobs:
       - name: 上傳 world.zip 到 Google Drive
         run: |
           rclone -vv copy world.zip gdrive:SkyFactory4World \
-            --drive-chunk-size 64M \
-            --transfers=4 \
-            --retries=10 \
-            --low-level-retries=20 \
-            --progress
+            --drive-chunk-size 64M --transfers=4 --retries=10 --low-level-retries=20 --progress
 
       - name: 觸發下一次執行
         uses: peter-evans/repository-dispatch@v2
