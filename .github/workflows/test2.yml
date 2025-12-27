@@ -33,13 +33,6 @@ jobs:
           echo "${{ secrets.ZT_IDENTITY_SECRET }}" | sudo tee /var/lib/zerotier-one/identity.secret > /dev/null
           sudo chmod 600 /var/lib/zerotier-one/identity.secret
 
-      - name: 手動啟動 ZeroTier daemon
-        run: |
-          echo "啟動 ZeroTier daemon..."
-          sudo /usr/sbin/zerotier-one -d /var/lib/zerotier-one &
-          sleep 10
-          sudo zerotier-cli info
-
       - name: 加入 ZeroTier 網路
         env:
           ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
