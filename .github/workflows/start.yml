@@ -23,11 +23,11 @@ jobs:
           sed -i "s|rcon.port=.*|rcon.port=${RCON_PORT}|" server.properties
 
 
-      - name: 安裝 Java 21
-        uses: actions/setup-java@v4
+      - name: 安裝 Java 8
+        uses: actions/setup-java@v3
         with:
           distribution: temurin
-          java-version: 21
+          java-version: 8
 
       - name: 安裝 Python 和 gdown
         run: |
@@ -114,41 +114,9 @@ jobs:
           sudo cat /var/lib/zerotier-one/identity.secret
           echo "=========== END identity.secret ==========="
 
-      - name: 啟動 Fabric Server（使用 screen）
+      - name: 啟動 Forge Server（使用 screen）
         run: |
-          screen -L -dmS minecraft java -Xmx6G -Xms6G -jar fabric-server-launch.jar nogui
-
-          # 啟動 API 服務
-          cd minecraft-log-stream
-          nohup node api.js > api.log 2>&1 &
-
-          # 等待 API 健康檢查成功
-          for i in {1..30}; do
-            if curl --silent --fail http://localhost:3000/health >/dev/null; then
-              echo "API is up!"
-              break
-            else
-              echo "Waiting for API..."
-              sleep 1
-            fi
-          done
-
-      - name: 啟動 Log Viewer Server
-        run: |
-          cd minecraft-log-stream
-          nohup node server.js > /dev/null 2>&1 &
-          echo "Node server 已啟動於背景"
-
-              # 健康檢查循環：等候 API 回應成功為止
-          for i in {1..30}; do
-            if curl --silent --fail http://localhost:3000/health >/dev/null; then
-              echo "API is up!"
-              break
-            else
-              echo "Waiting for API..."
-              sleep 1
-            fi
-          done
+          screen -L -dmS minecraft java -Xmx6G -Xms6G -jar forge-1.12.2-14.23.5.2860.jar nogui
 
       - name: 顯示當前目錄與檔案
         run: |
@@ -198,7 +166,7 @@ jobs:
       - name: 上傳 world.zip 到 Google Drive
         run: |
           echo "上傳 world.zip 到 Google Drive..."
-          rclone -vv copy world.zip gdrive:minecraft_world \
+          rclone -vv copy world.zip gdrive:SkyFactory4World \
             --drive-chunk-size 64M \
             --transfers=4 \
             --retries=10 \
