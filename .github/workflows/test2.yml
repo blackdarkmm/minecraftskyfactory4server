@@ -1,3 +1,16 @@
+name: Test ZeroTier
+
+on:
+  workflow_dispatch:
+
+jobs:
+  zerotier-test:
+    runs-on: ubuntu-latest
+    env:
+      ZT_IDENTITY_SECRET: ${{ secrets.ZT_IDENTITY_SECRET }}
+      ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
+
+    steps:
       - name: 安裝 ZeroTier CLI
         run: |
           for i in {1..5}; do
