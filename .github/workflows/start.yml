@@ -83,6 +83,24 @@ jobs:
           echo "目前身份："
           sudo cat /var/lib/zerotier-one/identity.public || echo "⚠️ 無法讀取身份"
 
+      - name: 手動啟動 ZeroTier 服務
+        run: |
+          echo "✅ 停止 ZeroTier 服務（如果已經啟動）"
+          sudo systemctl stop zerotier-one || true
+
+          echo "🚀 手動啟動 ZeroTier 服務"
+          sudo zerotier-one -d
+          
+          echo "🕓 等待 ZeroTier daemon 啟動..."
+          for i in {1..10}; do
+            if sudo zerotier-cli info &>/dev/null; then
+              echo "✅ ZeroTier daemon 已啟動"
+              break
+            fi
+            echo "⏳ 等待 daemon 啟動... ($i/10)"
+            sleep 2
+          done
+
       - name: 加入 ZeroTier 網路
         env:
           ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
