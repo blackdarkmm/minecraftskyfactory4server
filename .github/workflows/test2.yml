@@ -1,47 +1,39 @@
-name: Test ZeroTier
-
-on:
-  workflow_dispatch:
-
-jobs:
-  zerotier-test:
-    runs-on: ubuntu-latest
-    env:
-      ZT_IDENTITY_SECRET: ${{ secrets.ZT_IDENTITY_SECRET }}
-      ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
-
-    steps:
       - name: 安裝 ZeroTier CLI
         run: |
-          curl -f -s https://install.zerotier.com -o install.sh
+          for i in {1..5}; do
+            echo "Attempt $i to install ZeroTier"
+            curl -f -s https://install.zerotier.com -o install.sh && break
+            echo "Retrying in 5 seconds..."
+            sleep 5
+          done
+
+          if [ ! -f install.sh ]; then
+            echo "❌ Failed to download install script from install.zerotier.com"
+            exit 1
+          fi
+
           chmod +x install.sh
           sudo ./install.sh
 
-      - name: 匯入身份檔案
+      - name: 匯入 ZeroTier 身份檔案
         run: |
-          sudo systemctl stop zerotier-one || true
-          echo "$ZT_IDENTITY_SECRET" | sudo tee /var/lib/zerotier-one/identity.secret > /dev/null
+          echo "${{ secrets.ZT_IDENTITY_SECRET }}" | sudo tee /var/lib/zerotier-one/identity.secret > /dev/null
           sudo chmod 600 /var/lib/zerotier-one/identity.secret
 
       - name: 手動啟動 ZeroTier daemon
         run: |
+          echo "啟動 ZeroTier daemon..."
           sudo /usr/sbin/zerotier-one -d /var/lib/zerotier-one &
-          sleep 10  # 給 daemon 時間啟動
-
-      - name: 確認 ZeroTier daemon 運作
-        run: |
+          sleep 10
           sudo zerotier-cli info
-          sudo zerotier-cli listnetworks || echo "尚未加入網路"
 
-      - name: 嘗試加入 ZeroTier 網路
+      - name: 加入 ZeroTier 網路
+        env:
+          ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
         run: |
-          sudo zerotier-cli join $ZT_NETWORK_ID || {
-            echo "❌ 加入網路失敗"
-            exit 1
-          }
-
-      - name: 等待加入成功
-        run: |
+          echo "嘗試加入 ZeroTier 網路：$ZT_NETWORK_ID"
+          sudo zerotier-cli join $ZT_NETWORK_ID
+          sleep 5
           for i in {1..20}; do
             STATUS=$(sudo zerotier-cli listnetworks | grep $ZT_NETWORK_ID | awk '{print $5}')
             echo "目前狀態：$STATUS"
