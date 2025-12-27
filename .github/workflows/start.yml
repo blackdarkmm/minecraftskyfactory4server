@@ -50,10 +50,11 @@ jobs:
             echo "No world.zip found, skipping unzip."
           fi
 
-      - name: 準備環境並安裝 ZeroTier
+      - name: 建立 TUN 裝置
         run: |
-          # 1. 這是最關鍵的一步：手動建立 TUN 裝置
           sudo mkdir -p /dev/net
+          # 如果已存在則先刪除，避免 File exists 錯誤
+          sudo rm -f /dev/net/tun
           sudo mknod /dev/net/tun c 10 200
           sudo chmod 600 /dev/net/tun
 
