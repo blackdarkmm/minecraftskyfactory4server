@@ -1,0 +1,1466 @@
+[16:40:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:40:42] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:40:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:40:42] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[16:40:42] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[16:40:42] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_451, running on Windows 11:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_451
+[16:40:42] [main/DEBUG] [FML]: Java classpath at launch is:
+[16:40:42] [main/DEBUG] [FML]:     C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\forge-1.12.2-14.23.5.2860.jar
+[16:40:42] [main/DEBUG] [FML]: Java library path at launch is:
+[16:40:42] [main/DEBUG] [FML]:     C:\Program Files\Java\jre1.8.0_451\bin
+[16:40:42] [main/DEBUG] [FML]:     C:\WINDOWS\Sun\Java\bin
+[16:40:42] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[16:40:42] [main/DEBUG] [FML]:     C:\WINDOWS
+[16:40:42] [main/DEBUG] [FML]:     C:\Program Files\Common Files\Oracle\Java\javapath
+[16:40:42] [main/DEBUG] [FML]:     C:\Program Files (x86)\Common Files\Oracle\Java\java8path
+[16:40:42] [main/DEBUG] [FML]:     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[16:40:42] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[16:40:42] [main/DEBUG] [FML]:     C:\WINDOWS
+[16:40:42] [main/DEBUG] [FML]:     C:\WINDOWS\System32\Wbem
+[16:40:42] [main/DEBUG] [FML]:     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[16:40:42] [main/DEBUG] [FML]:     C:\WINDOWS\System32\OpenSSH\
+[16:40:42] [main/DEBUG] [FML]:     C:\Program Files\Cloudflare\Cloudflare WARP\
+[16:40:42] [main/DEBUG] [FML]:     C:\Program Files\Java\jdk-16.0.2\bin
+[16:40:42] [main/DEBUG] [FML]:     C:\Program Files\Git\cmd
+[16:40:42] [main/DEBUG] [FML]:     C:\Users\yushu\AppData\Local\Android\Sdk\platform-tools
+[16:40:42] [main/DEBUG] [FML]:     C:\Program Files (x86)\cloudflared\
+[16:40:42] [main/DEBUG] [FML]:     C:\Program Files (x86)\ZeroTier\One\
+[16:40:42] [main/DEBUG] [FML]:     C:\ProgramData\chocolatey\bin
+[16:40:42] [main/DEBUG] [FML]:     C:\Users\yushu\AppData\Local\Programs\Python\Python313\Scripts\
+[16:40:42] [main/DEBUG] [FML]:     C:\Users\yushu\AppData\Local\Programs\Python\Python313\
+[16:40:42] [main/DEBUG] [FML]:     C:\Users\yushu\AppData\Local\Programs\Python\Launcher\
+[16:40:42] [main/DEBUG] [FML]:     C:\Users\yushu\AppData\Local\Microsoft\WindowsApps
+[16:40:42] [main/DEBUG] [FML]:     C:\Users\yushu\AppData\Local\Programs\Microsoft VS Code\bin
+[16:40:42] [main/DEBUG] [FML]:     C:\msys64\ucrt64\bin
+[16:40:42] [main/DEBUG] [FML]:     C:\Program Files\cpolar\
+[16:40:42] [main/DEBUG] [FML]:     C:\Users\yushu\AppData\Local\GitHubDesktop\bin
+[16:40:42] [main/DEBUG] [FML]:     .
+[16:40:42] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\libraries
+[16:40:42] [main/DEBUG] [FML]: Cleaning up mods folder: .\mods
+[16:40:42] [main/DEBUG] [FML]: Examining file: Advancement_Book-1.12-1.0.3.jar
+[16:40:42] [main/DEBUG] [FML]: Examining file: ae2stuff-0.7.0.4-mc1.12.2.jar
+[16:40:42] [main/DEBUG] [FML]: Examining file: AnimalCrops-1.12.2-0.2.0.jar
+[16:40:42] [main/DEBUG] [FML]: Examining file: Apotheosis-1.12.2-1.12.5.jar
+[16:40:42] [main/DEBUG] [FML]: Examining file: AppleSkin-mc1.12-1.0.14.jar
+[16:40:42] [main/DEBUG] [FML]: Examining file: appliedenergistics2-rv6-stable-7.jar
+[16:40:42] [main/DEBUG] [FML]: Examining file: Aroma1997Core-1.12.2-2.0.0.2.b167.jar
+[16:40:42] [main/DEBUG] [FML]: Examining file: AromaBackup-1.12.2-3.0.0.0.b132.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: astralsorcery-1.12.2-1.10.27.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: BarrelsDrumsStorageAndMore-0.0.24.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: base-1.12.2-3.13.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Baubles-1.12-1.5.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: bdlib-1.14.3.12-mc1.12.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: bedpatch-2.2-1.12.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: BetterAdvancements-1.12.2-0.1.0.77.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: BiblioCraft[v2.4.5][MC1.12.2].jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: BNBGamingCore-1.12.2-0.12.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: BNBGamingLib-1.12.2-2.17.6.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: bonsaitrees-1.1.4-b170.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Bookshelf-1.12.2-2.3.590.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: BouncyCreepers-0.0.4.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: BuildingGadgets-2.8.3.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: CalmDownZombieGuy-1.12.2-1.0.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: CarryOn MC1.12.2 v1.12.3.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Ceramics-1.12-1.3.7b.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Chargers-1.12.2-1.2.0.4.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ChineseWorkshop-1.12.2_1.2.6.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Chisel-MC1.12.2-1.0.2.45.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: chiselsandbits-14.33.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ClickMachine-1.12.2-1.2.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ClientTweaks_1.12.2-3.1.11.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Clumps-3.1.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: CoFHCore-1.12.2-4.6.6.1-universal.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: CoFHWorld-1.12.2-1.4.0.1-universal.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ColouredTooltips-1.12.2-1.0.7.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: CommonCapabilities-1.12.2-2.4.6.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: compactmachines3-1.12.2-3.0.18-b278.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: CompactStorage-3.1-12.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ComPatchedStorage-1.12.2-1.6.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: conarm-1.12.2-1.2.5.9.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ContentTweaker-1.12.2-4.9.1.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Controlling-3.0.9.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: CookingForBlockheads_1.12.2-6.5.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: CraftTweaker2-1.12-4.1.20.574.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: CTM-MC1.12.2-1.0.2.31.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Cucumber-1.12.2-1.1.3.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: culinaryconstruct-1.3.4.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: CustomMainMenu-MC1.12.2-2.0.9.1.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Cyclic-1.12.2-1.20.3.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: CyclopsCore-1.12.2-1.6.4.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: DarkUtils-1.12.2-1.8.230.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: deepmoblearning-1.12.2-2.5.4-universal.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: DefaultOptions_1.12.2-9.2.8.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: DimensionStages-1.12.2-2.0.23.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: DragonMurder-1.12.2-1.0.1.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ElevatorMod-1.12.2-1.4.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: EnchantmentDescriptions-1.12.2-1.1.15.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: EnderCore-1.12.2-0.5.76.jar
+[16:40:43] [main/DEBUG] [FML]: Extracting ContainedDep META-INF/libraries/EnderCore-1.12.2-0.5.76-core.jar(com.enderio.core:EnderCore:1.12.2-0.5.76:core) from .\mods\EnderCore-1.12.2-0.5.76.jar to C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\mods\memory_repo\com\enderio\core\EnderCore\1.12.2-0.5.76\EnderCore-1.12.2-0.5.76-core.jar
+[16:40:43] [main/DEBUG] [FML]: Extracted ContainedDep META-INF/libraries/EnderCore-1.12.2-0.5.76-core.jar(com.enderio.core:EnderCore:1.12.2-0.5.76:core) from .\mods\EnderCore-1.12.2-0.5.76.jar to C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\mods\memory_repo\com\enderio\core\EnderCore\1.12.2-0.5.76\EnderCore-1.12.2-0.5.76-core.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: EnderCore-1.12.2-0.5.76-core.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: endercrop-1.12.2-1.6.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: EnderStorage-1.12.2-2.4.6.137-universal.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: enderutilities-1.12.2-0.7.15.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ExtendedCrafting-1.12.2-1.5.6.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ExtraCells-1.12.2-2.6.5.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: FancyBlockParticles-1.12.x-2.4.1.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: FarmingForBlockheads_1.12.2-3.1.28.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: FastFurnace-1.12.2-1.3.1.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: FastWorkbench-1.12.2-1.7.3.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: FenceOverhaul-1.3.4.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: findme-1.12.2-1.1.0-8.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: fluxnetworks-1.12.2-4.0.14-31.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: foamfix-0.10.14-1.12.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Forgelin-1.8.4.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ForgeMultipart-1.12.2-2.6.2.83-universal.jar
+[16:40:43] [main/DEBUG] [FML]: Extracting ContainedDep ChickenASM-1.12-1.0.2.7.jar from .\mods\ForgeMultipart-1.12.2-2.6.2.83-universal.jar to C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\mods\1.12.2\ChickenASM-1.12-1.0.2.7.jar
+[16:40:43] [main/DEBUG] [FML]: Extracted ContainedDep ChickenASM-1.12-1.0.2.7.jar from .\mods\ForgeMultipart-1.12.2-2.6.2.83-universal.jar to C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\mods\1.12.2\ChickenASM-1.12-1.0.2.7.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ChickenASM-1.12-1.0.2.7.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ForgivingVoid_1.12.2-1.1.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: GameStages-1.12.2-2.0.123.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Guide-API-1.12-2.1.8-63.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Headcrumbs-1.12.2-2.0.5.17.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: HorsePower-1.12.2-2.6.4.74.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: HuntingDimension-1.12.2-1.0.42.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: HurtAnimationRemover-1.12.2-1.0.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Hwyla-1.8.26-B41_1.12.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: HydroGel-1.12.2-1.1.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: iChunUtil-1.12.2-7.1.4.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: incontrol-1.12-3.9.16.jar
+[16:40:43] [main/DEBUG] [FML]: Extracting ContainedDep META-INF/libraries/mcjtytools-1.12-0.0.21.jar(com.github.mcjty:mcjtytools:0.0.21) from .\mods\incontrol-1.12-3.9.16.jar to C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\mods\memory_repo\com\github\mcjty\mcjtytools\0.0.21\mcjtytools-0.0.21.jar
+[16:40:43] [main/DEBUG] [FML]: Extracted ContainedDep META-INF/libraries/mcjtytools-1.12-0.0.21.jar(com.github.mcjty:mcjtytools:0.0.21) from .\mods\incontrol-1.12-3.9.16.jar to C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\mods\memory_repo\com\github\mcjty\mcjtytools\0.0.21\mcjtytools-0.0.21.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: mcjtytools-0.0.21.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: industrialforegoing-1.12.2-1.12.13-237.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Inspirations-1.12.2-0.2.9.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: IntegratedDynamics-1.12.2-1.1.6.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: IntegratedTunnels-1.12.2-1.6.11.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: inventorysorter-1.12.2-1.13.3+57.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: IronJetpacks-1.12-2-1.1.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ItemStages-1.12.2-2.0.51.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: jei_1.12.2-4.15.0.295.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: journeymap-1.12.2-5.7.1.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: KleeSlabs_1.12.2-5.4.12.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: LimitlessStructureBlocks-1.12.2-1.1.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: LoadingScreens-1.12.2-0.3.1.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: lostcities-1.12-2.0.22.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: malisiscore-1.12.2-6.5.1.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: malisisdoors-1.12.2-7.3.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Mantle-1.12-1.3.3.55.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: MatterOverdrive-1.12.2-0.7.1.0-universal.jar
+[16:40:43] [main/DEBUG] [FML]: Making maven link for build:MatterOverdrive:1.12.2-0.7.0.0 in memory to C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\.\mods\MatterOverdrive-1.12.2-0.7.1.0-universal.jar.
+[16:40:43] [main/DEBUG] [FML]: Examining file: mcjtylib-1.12-3.5.4.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: MCMultiPart-2.5.3.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Mekanism-1.12.2-9.8.3.390.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: MekanismGenerators-1.12.2-9.8.3.390.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Mercurius-1.12.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: MobGrindingUtils-0.3.13.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: MobStages-1.12.2-2.0.13.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: modtweaker-4.0.18.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: More-Cauldrons-1.4.6.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: MoreBuckets-1.12.2-1.0.4.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: moreoverlays-1.15.1-mc1.12.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Morpheus-1.12.2-3.5.106.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: MouseTweaks-2.10-mc1.12.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: mpbasic-1.12.2-1.4.11.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: MPUtils-1.12.2-1.5.7.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: MTLib-3.0.6.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: mystcraft-1.12.2-0.13.7.06.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: MysticalAgradditions-1.12.2-1.3.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: MysticalAgriculture-1.12.2-1.7.5.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Neat 1.4-17.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: NuclearCraft-2.18u-1.12.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ocxnetdriver-1.0.3-b17.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ogdragon-1.12.2-0.1.4.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: OpenComputers-MC1.12.2-1.7.5.192.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: OreExcavation-1.4.150.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Parabox-1.12.2-2.0.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Patchouli-1.0-20.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: PickleTweaks-1.12.2-2.1.3.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: PipeMaster-1.0.2-b8.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Placebo-1.12.2-1.6.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: PlaneFix-1.12.2-1.0.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: PortalGun-1.12.2-7.1.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: practicallogistics2-1.12.2-3.0.8-11.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Prestige-1.12.2-1.1.58.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: primitivecrafting-1.12.2-1.4.4.7.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ProjectE-1.12.2-PE1.4.1.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ProportionalDestructionParticles-1.12.2-1.2.4.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: rangedpumps-0.5.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: realfilingcabinet-1.12-0.2.0.21.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: reauth-3.6.0.jar
+[16:40:43] [main/DEBUG] [FML]: Making maven link for technicianlp:reauth:3.6.0 in memory to C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\.\mods\reauth-3.6.0.jar.
+[16:40:43] [main/DEBUG] [FML]: Examining file: RecipeStages-1.1.3.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: RedstoneFlux-1.12-2.1.1.1-universal.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ResourceHogs-1.12.2-1.0.14.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: ResourceLoader-MC1.12.1-1.5.3.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: rftoolspower-1.12-1.2.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: rustic-1.1.4.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: simplegenerators-1.12.2-2.0.20.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: SimpleStorageNetwork-1.12.2-1.7.10.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: simpletomb-1.12.2-1.0.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: SkyBonsais-1.0.1.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: SkyGrid-1.1.7.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: SkyOrchards-0.0.12.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Slab_Machines-1.0.7.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: SlimyBoyos-1.0.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: SmoothFont-mc1.12.2-2.1.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Snad-1.12.1-1.7.09.16a.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: sonarcore-1.12.2-5.0.19-20.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: SqueezerPatch-1.12.2-1.0.0.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: statues-1.12.X-0.8.9.2.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: stg-1.12.2-1.2.3.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: StuffASockInIt-1.12.2-1.1.30.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: supersoundmuffler-revived_1.12.2_1.0.2.10.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Surge-1.12.2-2.0.77.jar
+[16:40:43] [main/DEBUG] [FML]: Examining file: Sync-1.12.2-7.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: TallGates-1.12.2-1.0.0.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: TConstruct-1.12.2-2.13.0.183.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: TelePastries-0.3.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: tesla-core-lib-1.12.2-1.0.18.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: ThermalDynamics-1.12.2-2.5.6.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: ThermalFoundation-1.12.2-2.6.7.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: ThermalInnovation-1.12.2-0.3.6.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: TinkersComplement-1.12.2-0.4.3.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: TinkerToolLeveling-1.12.2-1.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: tinyprogressions-1.12.2-3.3.34-Release.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: TipTheScales-1.12.2-1.0.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: Toast Control-1.12.2-1.8.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: togetherforever-1.12.2-1.0.12-22.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: Topography-1.12.2-1.14.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: torchmaster_1.12.2-1.8.5.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: Translocators-1.12.2-2.5.2.81-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: TreeGrowingSimulator2017-1.0.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: Triumph-1.12.2-3.19.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: twilightforest-1.12.2-3.11.1021-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: Twitchcrumbs_1.12.2-3.0.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: Uppers-0.0.6.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: valkyrielib-1.12.2-2.0.20.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: ViesCraft-1.12.2-5.9.16.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: Waddles-1.12.2-0.6.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: WailaStages-1.12.2-2.0.24.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: walljump-1.12.2-1.3.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: Wawla-1.12.2-2.6.275.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: weirdinggadget-1.12.2-2.1.16-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: witherCrumbs-1.12.2-0.11.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: WorldBook-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: worldutils-1.12.2-0.4.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: XL-Food-Mod-1.12.2-1.9.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: xnet-1.12-1.8.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: YNot-0.2.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: yoyos_1.12.2-1.3.3.25.jar
+[16:40:44] [main/DEBUG] [FML]: Examining file: zenstages-0.5.0.jar
+[16:40:44] [main/DEBUG] [FML]: Cleaning up mods folder: .\mods\1.12.2
+[16:40:44] [main/DEBUG] [FML]: File already proccessed C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\.\mods\1.12.2\ChickenASM-1.12-1.0.2.7.jar, Skipping
+[16:40:44] [main/DEBUG] [FML]: File already proccessed C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\.\mods\memory_repo\com\enderio\core\EnderCore\1.12.2-0.5.76\EnderCore-1.12.2-0.5.76-core.jar, Skipping
+[16:40:44] [main/DEBUG] [FML]: File already proccessed C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\.\mods\memory_repo\com\github\mcjty\mcjtytools\0.0.21\mcjtytools-0.0.21.jar, Skipping
+[16:40:44] [main/DEBUG] [FML]: File already proccessed C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\.\mods\MatterOverdrive-1.12.2-0.7.1.0-universal.jar, Skipping
+[16:40:44] [main/DEBUG] [FML]: File already proccessed C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\.\mods\reauth-3.6.0.jar, Skipping
+[16:40:44] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[16:40:44] [main/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[16:40:44] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:40:44] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[16:40:44] [main/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[16:40:44] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[16:40:44] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[16:40:44] [main/DEBUG] [FML]: Discovering coremods
+[16:40:44] [main/INFO] [FML]: Searching C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\.\mods for mods
+[16:40:44] [main/DEBUG] [FML]:   Adding Advancement_Book-1.12-1.0.3.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ae2stuff-0.7.0.4-mc1.12.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding AnimalCrops-1.12.2-0.2.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Apotheosis-1.12.2-1.12.5.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding AppleSkin-mc1.12-1.0.14.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding appliedenergistics2-rv6-stable-7.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Aroma1997Core-1.12.2-2.0.0.2.b167.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding AromaBackup-1.12.2-3.0.0.0.b132.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding astralsorcery-1.12.2-1.10.27.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding BarrelsDrumsStorageAndMore-0.0.24.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding base-1.12.2-3.13.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Baubles-1.12-1.5.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding bdlib-1.14.3.12-mc1.12.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding bedpatch-2.2-1.12.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding BetterAdvancements-1.12.2-0.1.0.77.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding BiblioCraft[v2.4.5][MC1.12.2].jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding BNBGamingCore-1.12.2-0.12.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding BNBGamingLib-1.12.2-2.17.6.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding bonsaitrees-1.1.4-b170.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Bookshelf-1.12.2-2.3.590.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding BouncyCreepers-0.0.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding BuildingGadgets-2.8.3.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding CalmDownZombieGuy-1.12.2-1.0.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding CarryOn MC1.12.2 v1.12.3.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Ceramics-1.12-1.3.7b.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Chargers-1.12.2-1.2.0.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ChineseWorkshop-1.12.2_1.2.6.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Chisel-MC1.12.2-1.0.2.45.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding chiselsandbits-14.33.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ClickMachine-1.12.2-1.2.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ClientTweaks_1.12.2-3.1.11.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Clumps-3.1.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding CodeChickenLib-1.12.2-3.2.3.358-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding CoFHCore-1.12.2-4.6.6.1-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding CoFHWorld-1.12.2-1.4.0.1-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ColouredTooltips-1.12.2-1.0.7.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding CommonCapabilities-1.12.2-2.4.6.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding compactmachines3-1.12.2-3.0.18-b278.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding CompactStorage-3.1-12.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ComPatchedStorage-1.12.2-1.6.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding conarm-1.12.2-1.2.5.9.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ContentTweaker-1.12.2-4.9.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Controlling-3.0.9.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding CookingForBlockheads_1.12.2-6.5.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding CraftTweaker2-1.12-4.1.20.574.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding CTM-MC1.12.2-1.0.2.31.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Cucumber-1.12.2-1.1.3.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding culinaryconstruct-1.3.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding CustomMainMenu-MC1.12.2-2.0.9.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Cyclic-1.12.2-1.20.3.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding CyclopsCore-1.12.2-1.6.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding DarkUtils-1.12.2-1.8.230.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding deepmoblearning-1.12.2-2.5.4-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding DefaultOptions_1.12.2-9.2.8.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding DimensionStages-1.12.2-2.0.23.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding DragonMurder-1.12.2-1.0.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ElevatorMod-1.12.2-1.4.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding EnchantmentDescriptions-1.12.2-1.1.15.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding EnderCore-1.12.2-0.5.76.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding endercrop-1.12.2-1.6.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding EnderStorage-1.12.2-2.4.6.137-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding enderutilities-1.12.2-0.7.15.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ExtendedCrafting-1.12.2-1.5.6.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ExtraCells-1.12.2-2.6.5.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding FancyBlockParticles-1.12.x-2.4.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding FarmingForBlockheads_1.12.2-3.1.28.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding FastFurnace-1.12.2-1.3.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding FastWorkbench-1.12.2-1.7.3.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding FenceOverhaul-1.3.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding findme-1.12.2-1.1.0-8.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding fluxnetworks-1.12.2-4.0.14-31.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding foamfix-0.10.14-1.12.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Forgelin-1.8.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ForgeMultipart-1.12.2-2.6.2.83-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ForgivingVoid_1.12.2-1.1.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding GameStages-1.12.2-2.0.123.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Guide-API-1.12-2.1.8-63.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Headcrumbs-1.12.2-2.0.5.17.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding HorsePower-1.12.2-2.6.4.74.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding HuntingDimension-1.12.2-1.0.42.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding HurtAnimationRemover-1.12.2-1.0.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Hwyla-1.8.26-B41_1.12.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding HydroGel-1.12.2-1.1.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding iChunUtil-1.12.2-7.1.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding incontrol-1.12-3.9.16.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding industrialforegoing-1.12.2-1.12.13-237.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Inspirations-1.12.2-0.2.9.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding IntegratedDynamics-1.12.2-1.1.6.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding IntegratedTunnels-1.12.2-1.6.11.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding inventorysorter-1.12.2-1.13.3+57.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding IronJetpacks-1.12-2-1.1.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ItemStages-1.12.2-2.0.51.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding jei_1.12.2-4.15.0.295.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding journeymap-1.12.2-5.7.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding KleeSlabs_1.12.2-5.4.12.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding LimitlessStructureBlocks-1.12.2-1.1.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding LoadingScreens-1.12.2-0.3.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding lostcities-1.12-2.0.22.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding malisiscore-1.12.2-6.5.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding malisisdoors-1.12.2-7.3.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Mantle-1.12-1.3.3.55.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding MatterOverdrive-1.12.2-0.7.1.0-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding mcjtylib-1.12-3.5.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding MCMultiPart-2.5.3.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Mekanism-1.12.2-9.8.3.390.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding MekanismGenerators-1.12.2-9.8.3.390.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Mercurius-1.12.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding MobGrindingUtils-0.3.13.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding MobStages-1.12.2-2.0.13.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding modtweaker-4.0.18.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding More-Cauldrons-1.4.6.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding MoreBuckets-1.12.2-1.0.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding moreoverlays-1.15.1-mc1.12.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Morpheus-1.12.2-3.5.106.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding MouseTweaks-2.10-mc1.12.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding mpbasic-1.12.2-1.4.11.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding MPUtils-1.12.2-1.5.7.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding MTLib-3.0.6.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding mystcraft-1.12.2-0.13.7.06.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding MysticalAgradditions-1.12.2-1.3.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding MysticalAgriculture-1.12.2-1.7.5.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Neat 1.4-17.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding NuclearCraft-2.18u-1.12.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ocxnetdriver-1.0.3-b17.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ogdragon-1.12.2-0.1.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding OpenComputers-MC1.12.2-1.7.5.192.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding OreExcavation-1.4.150.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Parabox-1.12.2-2.0.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Patchouli-1.0-20.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding PickleTweaks-1.12.2-2.1.3.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding PipeMaster-1.0.2-b8.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Placebo-1.12.2-1.6.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding PlaneFix-1.12.2-1.0.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding PortalGun-1.12.2-7.1.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding practicallogistics2-1.12.2-3.0.8-11.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Prestige-1.12.2-1.1.58.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding primitivecrafting-1.12.2-1.4.4.7.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ProjectE-1.12.2-PE1.4.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ProportionalDestructionParticles-1.12.2-1.2.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding rangedpumps-0.5.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding realfilingcabinet-1.12-0.2.0.21.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding reauth-3.6.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding RecipeStages-1.1.3.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding RedstoneFlux-1.12-2.1.1.1-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ResourceHogs-1.12.2-1.0.14.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ResourceLoader-MC1.12.1-1.5.3.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding rftoolspower-1.12-1.2.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding rustic-1.1.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding simplegenerators-1.12.2-2.0.20.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding SimpleStorageNetwork-1.12.2-1.7.10.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding simpletomb-1.12.2-1.0.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding SkyBonsais-1.0.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding SkyGrid-1.1.7.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding SkyOrchards-0.0.12.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Slab_Machines-1.0.7.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding SlimyBoyos-1.0.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding SmoothFont-mc1.12.2-2.1.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Snad-1.12.1-1.7.09.16a.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding sonarcore-1.12.2-5.0.19-20.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding SqueezerPatch-1.12.2-1.0.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding statues-1.12.X-0.8.9.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding stg-1.12.2-1.2.3.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding StuffASockInIt-1.12.2-1.1.30.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding supersoundmuffler-revived_1.12.2_1.0.2.10.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Surge-1.12.2-2.0.77.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Sync-1.12.2-7.1.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding TallGates-1.12.2-1.0.0.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding TConstruct-1.12.2-2.13.0.183.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding TelePastries-0.3.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding tesla-core-lib-1.12.2-1.0.18.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ThermalDynamics-1.12.2-2.5.6.1-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ThermalFoundation-1.12.2-2.6.7.1-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ThermalInnovation-1.12.2-0.3.6.1-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding TinkersComplement-1.12.2-0.4.3.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding TinkerToolLeveling-1.12.2-1.1.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding tinyprogressions-1.12.2-3.3.34-Release.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding TipTheScales-1.12.2-1.0.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Toast Control-1.12.2-1.8.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding togetherforever-1.12.2-1.0.12-22.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Topography-1.12.2-1.14.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding torchmaster_1.12.2-1.8.5.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Translocators-1.12.2-2.5.2.81-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding TreeGrowingSimulator2017-1.0.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Triumph-1.12.2-3.19.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding twilightforest-1.12.2-3.11.1021-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Twitchcrumbs_1.12.2-3.0.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Uppers-0.0.6.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding valkyrielib-1.12.2-2.0.20.1.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding ViesCraft-1.12.2-5.9.16.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Waddles-1.12.2-0.6.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding WailaStages-1.12.2-2.0.24.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding walljump-1.12.2-1.3.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding Wawla-1.12.2-2.6.275.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding weirdinggadget-1.12.2-2.1.16-universal.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding witherCrumbs-1.12.2-0.11.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding WorldBook-1.0.0.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding worldutils-1.12.2-0.4.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding XL-Food-Mod-1.12.2-1.9.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding xnet-1.12-1.8.2.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding YNot-0.2.4.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding yoyos_1.12.2-1.3.3.25.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]:   Adding zenstages-0.5.0.jar to the mod list
+[16:40:44] [main/INFO] [FML]: Searching C:\Users\yushu\Downloads\SkyFactory-4_Server_4_2_4\.\mods\1.12.2 for mods
+[16:40:44] [main/DEBUG] [FML]:   Adding ChickenASM-1.12-1.0.2.7.jar to the mod list
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Advancement_Book-1.12-1.0.3.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Advancement_Book-1.12-1.0.3.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ae2stuff-0.7.0.4-mc1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ae2stuff-0.7.0.4-mc1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy AnimalCrops-1.12.2-0.2.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in AnimalCrops-1.12.2-0.2.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Apotheosis-1.12.2-1.12.5.jar
+[16:40:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Apotheosis-1.12.2-1.12.5.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class ApotheosisCore
+[16:40:44] [main/DEBUG] [FML]: The coremod shadows.ApotheosisCore requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[16:40:44] [main/WARN] [FML]: The coremod ApotheosisCore (shadows.ApotheosisCore) is not signed!
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod ApotheosisCore
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy AppleSkin-mc1.12-1.0.14.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in AppleSkin-mc1.12-1.0.14.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy appliedenergistics2-rv6-stable-7.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in appliedenergistics2-rv6-stable-7.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Aroma1997Core-1.12.2-2.0.0.2.b167.jar
+[16:40:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Aroma1997Core-1.12.2-2.0.0.2.b167.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class CoreMod
+[16:40:44] [main/WARN] [FML]: The coremod aroma1997.core.coremod.CoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:40:44] [main/DEBUG] [FML]: Found signing certificates for coremod CoreMod (aroma1997.core.coremod.CoreMod)
+[16:40:44] [main/DEBUG] [FML]: Found certificate dfbfe4c473253d8c5652417689848f650b2cbe32
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod CoreMod
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy AromaBackup-1.12.2-3.0.0.0.b132.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in AromaBackup-1.12.2-3.0.0.0.b132.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy astralsorcery-1.12.2-1.10.27.jar
+[16:40:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in astralsorcery-1.12.2-1.10.27.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class AstralCore
+[16:40:44] [main/TRACE] [FML]: coremod named AstralCore is loading
+[16:40:44] [main/WARN] [FML]: The coremod hellfirepvp.astralsorcery.core.AstralCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:40:44] [main/DEBUG] [FML]: Found signing certificates for coremod AstralCore (hellfirepvp.astralsorcery.core.AstralCore)
+[16:40:44] [main/DEBUG] [FML]: Found certificate a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0
+[16:40:44] [main/INFO] [Astral Core]: [AstralCore] Initialized.
+[16:40:44] [main/DEBUG] [FML]: Added access transformer class hellfirepvp.astralsorcery.core.AstralTransformer to enqueued access transformers
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod AstralCore
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy BarrelsDrumsStorageAndMore-0.0.24.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in BarrelsDrumsStorageAndMore-0.0.24.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy base-1.12.2-3.13.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in base-1.12.2-3.13.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Baubles-1.12-1.5.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Baubles-1.12-1.5.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy bdlib-1.14.3.12-mc1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in bdlib-1.14.3.12-mc1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy bedpatch-2.2-1.12.2.jar
+[16:40:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in bedpatch-2.2-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class BedPatch
+[16:40:44] [main/DEBUG] [FML]: The coremod com.mordenkainen.bedpatch.BedPatch requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[16:40:44] [main/WARN] [FML]: The coremod BedPatch (com.mordenkainen.bedpatch.BedPatch) is not signed!
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod BedPatch
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy BetterAdvancements-1.12.2-0.1.0.77.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in BetterAdvancements-1.12.2-0.1.0.77.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy BiblioCraft[v2.4.5][MC1.12.2].jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in BiblioCraft[v2.4.5][MC1.12.2].jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy BNBGamingCore-1.12.2-0.12.0.jar
+[16:40:44] [main/TRACE] [FML]: Adding BNBGamingCore-1.12.2-0.12.0.jar to the list of known coremods, it will not be examined again
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class BNBGamingCorePlugin
+[16:40:44] [main/TRACE] [FML]: coremod named BNBGamingCore is loading
+[16:40:44] [main/WARN] [FML]: The coremod com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:40:44] [main/WARN] [FML]: The coremod BNBGamingCore (com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin) is not signed!
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod BNBGamingCore
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy BNBGamingLib-1.12.2-2.17.6.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in BNBGamingLib-1.12.2-2.17.6.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy bonsaitrees-1.1.4-b170.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in bonsaitrees-1.1.4-b170.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Bookshelf-1.12.2-2.3.590.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Bookshelf-1.12.2-2.3.590.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy BouncyCreepers-0.0.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in BouncyCreepers-0.0.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy BuildingGadgets-2.8.3.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in BuildingGadgets-2.8.3.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy CalmDownZombieGuy-1.12.2-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in CalmDownZombieGuy-1.12.2-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy CarryOn MC1.12.2 v1.12.3.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in CarryOn MC1.12.2 v1.12.3.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Ceramics-1.12-1.3.7b.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Ceramics-1.12-1.3.7b.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Chargers-1.12.2-1.2.0.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Chargers-1.12.2-1.2.0.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ChickenASM-1.12-1.0.2.7.jar
+[16:40:44] [main/INFO] [FML]: Loading tweaker codechicken.asm.internal.Tweaker from ChickenASM-1.12-1.0.2.7.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ChineseWorkshop-1.12.2_1.2.6.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ChineseWorkshop-1.12.2_1.2.6.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Chisel-MC1.12.2-1.0.2.45.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Chisel-MC1.12.2-1.0.2.45.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy chiselsandbits-14.33.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in chiselsandbits-14.33.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ClickMachine-1.12.2-1.2.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ClickMachine-1.12.2-1.2.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ClientTweaks_1.12.2-3.1.11.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ClientTweaks_1.12.2-3.1.11.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Clumps-3.1.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Clumps-3.1.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy CoFHCore-1.12.2-4.6.6.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in CoFHCore-1.12.2-4.6.6.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy CoFHWorld-1.12.2-1.4.0.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in CoFHWorld-1.12.2-1.4.0.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ColouredTooltips-1.12.2-1.0.7.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ColouredTooltips-1.12.2-1.0.7.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy CommonCapabilities-1.12.2-2.4.6.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in CommonCapabilities-1.12.2-2.4.6.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy compactmachines3-1.12.2-3.0.18-b278.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in compactmachines3-1.12.2-3.0.18-b278.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy CompactStorage-3.1-12.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in CompactStorage-3.1-12.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ComPatchedStorage-1.12.2-1.6.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ComPatchedStorage-1.12.2-1.6.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy conarm-1.12.2-1.2.5.9.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in conarm-1.12.2-1.2.5.9.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ContentTweaker-1.12.2-4.9.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ContentTweaker-1.12.2-4.9.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Controlling-3.0.9.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Controlling-3.0.9.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy CookingForBlockheads_1.12.2-6.5.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in CookingForBlockheads_1.12.2-6.5.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy CraftTweaker2-1.12-4.1.20.574.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in CraftTweaker2-1.12-4.1.20.574.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy CTM-MC1.12.2-1.0.2.31.jar
+[16:40:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class CTMCorePlugin
+[16:40:44] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:40:44] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod CTMCorePlugin
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Cucumber-1.12.2-1.1.3.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Cucumber-1.12.2-1.1.3.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy culinaryconstruct-1.3.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in culinaryconstruct-1.3.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy CustomMainMenu-MC1.12.2-2.0.9.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in CustomMainMenu-MC1.12.2-2.0.9.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Cyclic-1.12.2-1.20.3.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Cyclic-1.12.2-1.20.3.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy CyclopsCore-1.12.2-1.6.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in CyclopsCore-1.12.2-1.6.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy DarkUtils-1.12.2-1.8.230.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in DarkUtils-1.12.2-1.8.230.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy deepmoblearning-1.12.2-2.5.4-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in deepmoblearning-1.12.2-2.5.4-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy DefaultOptions_1.12.2-9.2.8.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in DefaultOptions_1.12.2-9.2.8.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy DimensionStages-1.12.2-2.0.23.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in DimensionStages-1.12.2-2.0.23.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy DragonMurder-1.12.2-1.0.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in DragonMurder-1.12.2-1.0.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ElevatorMod-1.12.2-1.4.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ElevatorMod-1.12.2-1.4.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy EnchantmentDescriptions-1.12.2-1.1.15.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in EnchantmentDescriptions-1.12.2-1.1.15.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy EnderCore-1.12.2-0.5.76.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in EnderCore-1.12.2-0.5.76.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy endercrop-1.12.2-1.6.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in endercrop-1.12.2-1.6.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy EnderStorage-1.12.2-2.4.6.137-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in EnderStorage-1.12.2-2.4.6.137-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy enderutilities-1.12.2-0.7.15.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in enderutilities-1.12.2-0.7.15.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ExtendedCrafting-1.12.2-1.5.6.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ExtendedCrafting-1.12.2-1.5.6.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ExtraCells-1.12.2-2.6.5.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ExtraCells-1.12.2-2.6.5.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy FancyBlockParticles-1.12.x-2.4.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in FancyBlockParticles-1.12.x-2.4.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy FarmingForBlockheads_1.12.2-3.1.28.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in FarmingForBlockheads_1.12.2-3.1.28.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy FastFurnace-1.12.2-1.3.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in FastFurnace-1.12.2-1.3.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy FastWorkbench-1.12.2-1.7.3.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in FastWorkbench-1.12.2-1.7.3.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy FenceOverhaul-1.3.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in FenceOverhaul-1.3.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy findme-1.12.2-1.1.0-8.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in findme-1.12.2-1.1.0-8.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy fluxnetworks-1.12.2-4.0.14-31.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in fluxnetworks-1.12.2-4.0.14-31.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy foamfix-0.10.14-1.12.2.jar
+[16:40:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in foamfix-0.10.14-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class FoamFixCore
+[16:40:44] [main/TRACE] [FML]: coremod named Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) is loading
+[16:40:44] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:40:44] [main/DEBUG] [FML]: Found signing certificates for coremod Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (pl.asie.foamfix.coremod.FoamFixCore)
+[16:40:44] [main/DEBUG] [FML]: Found certificate 3481f72e377b0a1989bd38e3f07cf4cf0b626475
+[16:40:44] [main/DEBUG] [FML]: Added access transformer class pl.asie.foamfix.coremod.FoamFixAT to enqueued access transformers
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.)
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Forgelin-1.8.4.jar
+[16:40:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class ForgelinPlugin
+[16:40:44] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:40:44] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod ForgelinPlugin
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ForgeMultipart-1.12.2-2.6.2.83-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ForgeMultipart-1.12.2-2.6.2.83-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ForgivingVoid_1.12.2-1.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ForgivingVoid_1.12.2-1.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy GameStages-1.12.2-2.0.123.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in GameStages-1.12.2-2.0.123.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Guide-API-1.12-2.1.8-63.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Guide-API-1.12-2.1.8-63.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Headcrumbs-1.12.2-2.0.5.17.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Headcrumbs-1.12.2-2.0.5.17.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy HorsePower-1.12.2-2.6.4.74.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in HorsePower-1.12.2-2.6.4.74.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy HuntingDimension-1.12.2-1.0.42.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in HuntingDimension-1.12.2-1.0.42.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy HurtAnimationRemover-1.12.2-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in HurtAnimationRemover-1.12.2-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Hwyla-1.8.26-B41_1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Hwyla-1.8.26-B41_1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy HydroGel-1.12.2-1.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in HydroGel-1.12.2-1.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy iChunUtil-1.12.2-7.1.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in iChunUtil-1.12.2-7.1.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy incontrol-1.12-3.9.16.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in incontrol-1.12-3.9.16.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy industrialforegoing-1.12.2-1.12.13-237.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in industrialforegoing-1.12.2-1.12.13-237.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Inspirations-1.12.2-0.2.9.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Inspirations-1.12.2-0.2.9.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy IntegratedDynamics-1.12.2-1.1.6.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in IntegratedDynamics-1.12.2-1.1.6.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy IntegratedTunnels-1.12.2-1.6.11.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in IntegratedTunnels-1.12.2-1.6.11.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy inventorysorter-1.12.2-1.13.3+57.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in inventorysorter-1.12.2-1.13.3+57.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy IronJetpacks-1.12-2-1.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in IronJetpacks-1.12-2-1.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ItemStages-1.12.2-2.0.51.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ItemStages-1.12.2-2.0.51.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy jei_1.12.2-4.15.0.295.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in jei_1.12.2-4.15.0.295.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy journeymap-1.12.2-5.7.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in journeymap-1.12.2-5.7.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy KleeSlabs_1.12.2-5.4.12.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in KleeSlabs_1.12.2-5.4.12.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy LimitlessStructureBlocks-1.12.2-1.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in LimitlessStructureBlocks-1.12.2-1.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy LoadingScreens-1.12.2-0.3.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in LoadingScreens-1.12.2-0.3.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy lostcities-1.12-2.0.22.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in lostcities-1.12-2.0.22.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy malisiscore-1.12.2-6.5.1.jar
+[16:40:44] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from malisiscore-1.12.2-6.5.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy malisisdoors-1.12.2-7.3.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in malisisdoors-1.12.2-7.3.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Mantle-1.12-1.3.3.55.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Mantle-1.12-1.3.3.55.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy mcjtylib-1.12-3.5.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in mcjtylib-1.12-3.5.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy MCMultiPart-2.5.3.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in MCMultiPart-2.5.3.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Mekanism-1.12.2-9.8.3.390.jar
+[16:40:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Mekanism-1.12.2-9.8.3.390.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class MekanismCoremod
+[16:40:44] [main/WARN] [FML]: The coremod mekanism.coremod.MekanismCoremod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:40:44] [main/WARN] [FML]: The coremod MekanismCoremod (mekanism.coremod.MekanismCoremod) is not signed!
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod MekanismCoremod
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy MekanismGenerators-1.12.2-9.8.3.390.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in MekanismGenerators-1.12.2-9.8.3.390.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Mercurius-1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Mercurius-1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy MobGrindingUtils-0.3.13.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in MobGrindingUtils-0.3.13.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy MobStages-1.12.2-2.0.13.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in MobStages-1.12.2-2.0.13.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy modtweaker-4.0.18.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in modtweaker-4.0.18.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy More-Cauldrons-1.4.6.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in More-Cauldrons-1.4.6.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy MoreBuckets-1.12.2-1.0.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in MoreBuckets-1.12.2-1.0.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy moreoverlays-1.15.1-mc1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in moreoverlays-1.15.1-mc1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Morpheus-1.12.2-3.5.106.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Morpheus-1.12.2-3.5.106.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy MouseTweaks-2.10-mc1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in MouseTweaks-2.10-mc1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy mpbasic-1.12.2-1.4.11.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in mpbasic-1.12.2-1.4.11.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy MPUtils-1.12.2-1.5.7.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in MPUtils-1.12.2-1.5.7.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy MTLib-3.0.6.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in MTLib-3.0.6.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy mystcraft-1.12.2-0.13.7.06.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in mystcraft-1.12.2-0.13.7.06.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy MysticalAgradditions-1.12.2-1.3.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in MysticalAgradditions-1.12.2-1.3.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy MysticalAgriculture-1.12.2-1.7.5.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in MysticalAgriculture-1.12.2-1.7.5.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Neat 1.4-17.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Neat 1.4-17.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy NuclearCraft-2.18u-1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in NuclearCraft-2.18u-1.12.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ocxnetdriver-1.0.3-b17.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ocxnetdriver-1.0.3-b17.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ogdragon-1.12.2-0.1.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ogdragon-1.12.2-0.1.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy OpenComputers-MC1.12.2-1.7.5.192.jar
+[16:40:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in OpenComputers-MC1.12.2-1.7.5.192.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class TransformerLoader
+[16:40:44] [main/WARN] [FML]: The coremod li.cil.oc.common.launch.TransformerLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:40:44] [main/WARN] [FML]: The coremod TransformerLoader (li.cil.oc.common.launch.TransformerLoader) is not signed!
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod TransformerLoader
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy OreExcavation-1.4.150.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in OreExcavation-1.4.150.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Parabox-1.12.2-2.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Parabox-1.12.2-2.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Patchouli-1.0-20.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Patchouli-1.0-20.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy PickleTweaks-1.12.2-2.1.3.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in PickleTweaks-1.12.2-2.1.3.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy PipeMaster-1.0.2-b8.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in PipeMaster-1.0.2-b8.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Placebo-1.12.2-1.6.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Placebo-1.12.2-1.6.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy PlaneFix-1.12.2-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in PlaneFix-1.12.2-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy PortalGun-1.12.2-7.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in PortalGun-1.12.2-7.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy practicallogistics2-1.12.2-3.0.8-11.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in practicallogistics2-1.12.2-3.0.8-11.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Prestige-1.12.2-1.1.58.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Prestige-1.12.2-1.1.58.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy primitivecrafting-1.12.2-1.4.4.7.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in primitivecrafting-1.12.2-1.4.4.7.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ProjectE-1.12.2-PE1.4.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ProjectE-1.12.2-PE1.4.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ProportionalDestructionParticles-1.12.2-1.2.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ProportionalDestructionParticles-1.12.2-1.2.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy rangedpumps-0.5.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in rangedpumps-0.5.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy realfilingcabinet-1.12-0.2.0.21.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in realfilingcabinet-1.12-0.2.0.21.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy RecipeStages-1.1.3.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in RecipeStages-1.1.3.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy RedstoneFlux-1.12-2.1.1.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in RedstoneFlux-1.12-2.1.1.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ResourceHogs-1.12.2-1.0.14.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ResourceHogs-1.12.2-1.0.14.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ResourceLoader-MC1.12.1-1.5.3.jar
+[16:40:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ResourceLoader-MC1.12.1-1.5.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class LoadingPlugin
+[16:40:44] [main/WARN] [FML]: The coremod lumien.resourceloader.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:40:44] [main/DEBUG] [FML]: Found signing certificates for coremod LoadingPlugin (lumien.resourceloader.asm.LoadingPlugin)
+[16:40:44] [main/DEBUG] [FML]: Found certificate d72e0dd57935b3e9476212aea0c0df352dd76291
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod LoadingPlugin
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy rftoolspower-1.12-1.2.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in rftoolspower-1.12-1.2.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy rustic-1.1.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in rustic-1.1.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy simplegenerators-1.12.2-2.0.20.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in simplegenerators-1.12.2-2.0.20.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy SimpleStorageNetwork-1.12.2-1.7.10.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in SimpleStorageNetwork-1.12.2-1.7.10.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy simpletomb-1.12.2-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in simpletomb-1.12.2-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy SkyBonsais-1.0.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in SkyBonsais-1.0.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy SkyGrid-1.1.7.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in SkyGrid-1.1.7.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy SkyOrchards-0.0.12.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in SkyOrchards-0.0.12.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Slab_Machines-1.0.7.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Slab_Machines-1.0.7.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy SlimyBoyos-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in SlimyBoyos-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy SmoothFont-mc1.12.2-2.1.2.jar
+[16:40:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in SmoothFont-mc1.12.2-2.1.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class CorePlugin
+[16:40:44] [main/WARN] [FML]: The coremod bre.smoothfont.asm.CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:40:44] [main/WARN] [FML]: The coremod CorePlugin (bre.smoothfont.asm.CorePlugin) is not signed!
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod CorePlugin
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Snad-1.12.1-1.7.09.16a.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Snad-1.12.1-1.7.09.16a.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy sonarcore-1.12.2-5.0.19-20.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in sonarcore-1.12.2-5.0.19-20.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy SqueezerPatch-1.12.2-1.0.0.jar
+[16:40:44] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in SqueezerPatch-1.12.2-1.0.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class SqueezerCore
+[16:40:44] [main/DEBUG] [FML]: The coremod shadows.squeezer.SqueezerCore requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[16:40:44] [main/WARN] [FML]: The coremod SqueezerCore (shadows.squeezer.SqueezerCore) is not signed!
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod SqueezerCore
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy statues-1.12.X-0.8.9.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in statues-1.12.X-0.8.9.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy stg-1.12.2-1.2.3.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in stg-1.12.2-1.2.3.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy StuffASockInIt-1.12.2-1.1.30.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in StuffASockInIt-1.12.2-1.1.30.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy supersoundmuffler-revived_1.12.2_1.0.2.10.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in supersoundmuffler-revived_1.12.2_1.0.2.10.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Surge-1.12.2-2.0.77.jar
+[16:40:44] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from Surge-1.12.2-2.0.77.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Sync-1.12.2-7.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Sync-1.12.2-7.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy TallGates-1.12.2-1.0.0.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in TallGates-1.12.2-1.0.0.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy TConstruct-1.12.2-2.13.0.183.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in TConstruct-1.12.2-2.13.0.183.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy TelePastries-0.3.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in TelePastries-0.3.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy tesla-core-lib-1.12.2-1.0.18.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in tesla-core-lib-1.12.2-1.0.18.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ThermalDynamics-1.12.2-2.5.6.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ThermalDynamics-1.12.2-2.5.6.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ThermalFoundation-1.12.2-2.6.7.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ThermalFoundation-1.12.2-2.6.7.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ThermalInnovation-1.12.2-0.3.6.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ThermalInnovation-1.12.2-0.3.6.1-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy TinkersComplement-1.12.2-0.4.3.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in TinkersComplement-1.12.2-0.4.3.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy TinkerToolLeveling-1.12.2-1.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in TinkerToolLeveling-1.12.2-1.1.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy tinyprogressions-1.12.2-3.3.34-Release.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in tinyprogressions-1.12.2-3.3.34-Release.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy TipTheScales-1.12.2-1.0.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in TipTheScales-1.12.2-1.0.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Toast Control-1.12.2-1.8.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Toast Control-1.12.2-1.8.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy togetherforever-1.12.2-1.0.12-22.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in togetherforever-1.12.2-1.0.12-22.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Topography-1.12.2-1.14.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Topography-1.12.2-1.14.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy torchmaster_1.12.2-1.8.5.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in torchmaster_1.12.2-1.8.5.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Translocators-1.12.2-2.5.2.81-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Translocators-1.12.2-2.5.2.81-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy TreeGrowingSimulator2017-1.0.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in TreeGrowingSimulator2017-1.0.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Triumph-1.12.2-3.19.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Triumph-1.12.2-3.19.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy twilightforest-1.12.2-3.11.1021-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in twilightforest-1.12.2-3.11.1021-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Twitchcrumbs_1.12.2-3.0.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Twitchcrumbs_1.12.2-3.0.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Uppers-0.0.6.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Uppers-0.0.6.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy valkyrielib-1.12.2-2.0.20.1.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in valkyrielib-1.12.2-2.0.20.1.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy ViesCraft-1.12.2-5.9.16.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in ViesCraft-1.12.2-5.9.16.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Waddles-1.12.2-0.6.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Waddles-1.12.2-0.6.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy WailaStages-1.12.2-2.0.24.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in WailaStages-1.12.2-2.0.24.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy walljump-1.12.2-1.3.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in walljump-1.12.2-1.3.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy Wawla-1.12.2-2.6.275.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in Wawla-1.12.2-2.6.275.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy weirdinggadget-1.12.2-2.1.16-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in weirdinggadget-1.12.2-2.1.16-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy witherCrumbs-1.12.2-0.11.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in witherCrumbs-1.12.2-0.11.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy WorldBook-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in WorldBook-1.0.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy worldutils-1.12.2-0.4.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in worldutils-1.12.2-0.4.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy XL-Food-Mod-1.12.2-1.9.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in XL-Food-Mod-1.12.2-1.9.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy xnet-1.12-1.8.2.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in xnet-1.12-1.8.2.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy YNot-0.2.4.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in YNot-0.2.4.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy yoyos_1.12.2-1.3.3.25.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in yoyos_1.12.2-1.3.3.25.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy zenstages-0.5.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in zenstages-0.5.0.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy EnderCore-1.12.2-0.5.76-core.jar
+[16:40:44] [main/TRACE] [FML]: Adding EnderCore-1.12.2-0.5.76-core.jar to the list of known coremods, it will not be examined again
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class EnderCorePlugin
+[16:40:44] [main/DEBUG] [FML]: The coremod com.enderio.core.common.transform.EnderCorePlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[16:40:44] [main/DEBUG] [FML]: Found signing certificates for coremod EnderCorePlugin (com.enderio.core.common.transform.EnderCorePlugin)
+[16:40:44] [main/DEBUG] [FML]: Found certificate c8f54f454b230ae874e2620721fc1ee76c4b0f6b
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod EnderCorePlugin
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy mcjtytools-0.0.21.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in mcjtytools-0.0.21.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy MatterOverdrive-1.12.2-0.7.1.0-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in MatterOverdrive-1.12.2-0.7.1.0-universal.jar
+[16:40:44] [main/DEBUG] [FML]: Examining for coremod candidacy reauth-3.6.0.jar
+[16:40:44] [main/DEBUG] [FML]: Not found coremod data in reauth-3.6.0.jar
+[16:40:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:40:44] [main/INFO] [LaunchWrapper]: Loading tweak class name codechicken.asm.internal.Tweaker
+[16:40:44] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[16:40:44] [main/DEBUG] [mixin]: MixinService [LaunchWrapper] was successfully booted in sun.misc.Launcher$AppClassLoader@7d417077
+[16:40:44] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/malisiscore-1.12.2-6.5.1.jar Service=LaunchWrapper Env=SERVER
+[16:40:44] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #1
+[16:40:44] [main/DEBUG] [mixin]: Initialising Mixin Platform Manager
+[16:40:44] [main/DEBUG] [mixin]: Mixin platform: primary container is file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/malisiscore-1.12.2-6.5.1.jar
+[16:40:44] [main/DEBUG] [mixin]: Adding mixin platform agents for container file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/malisiscore-1.12.2-6.5.1.jar
+[16:40:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFML for file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/malisiscore-1.12.2-6.5.1.jar
+[16:40:44] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for malisiscore-1.12.2-6.5.1.jar, attempting force-load
+[16:40:44] [main/DEBUG] [mixin]: Adding malisiscore-1.12.2-6.5.1.jar to reparseable coremod collection
+[16:40:44] [main/DEBUG] [mixin]: malisiscore-1.12.2-6.5.1.jar has core plugin net.malisis.core.asm.MalisisCorePlugin. Injecting it into FML for co-initialisation:
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class MalisisCorePlugin
+[16:40:44] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:40:44] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
+[16:40:44] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[16:40:44] [main/DEBUG] [FML]: Enqueued coremod MalisisCorePlugin
+[16:40:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/malisiscore-1.12.2-6.5.1.jar
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/forge-1.12.2-14.23.5.2860.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Apotheosis-1.12.2-1.12.5.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Aroma1997Core-1.12.2-2.0.0.2.b167.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/astralsorcery-1.12.2-1.10.27.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/bedpatch-2.2-1.12.2.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/BNBGamingCore-1.12.2-0.12.0.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/CTM-MC1.12.2-1.0.2.31.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/foamfix-0.10.14-1.12.2.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Forgelin-1.8.4.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Mekanism-1.12.2-9.8.3.390.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/OpenComputers-MC1.12.2-1.7.5.192.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/ResourceLoader-MC1.12.1-1.5.3.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/SmoothFont-mc1.12.2-2.1.2.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/SqueezerPatch-1.12.2-1.0.0.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Surge-1.12.2-2.0.77.jar for mixin tweaker
+[16:40:44] [main/DEBUG] [mixin]: file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Surge-1.12.2-2.0.77.jar contains a mixin tweaker, adding agents
+[16:40:44] [main/DEBUG] [mixin]: Adding mixin platform agents for container file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Surge-1.12.2-2.0.77.jar
+[16:40:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFML for file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Surge-1.12.2-2.0.77.jar
+[16:40:44] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for Surge-1.12.2-2.0.77.jar, attempting force-load
+[16:40:44] [main/DEBUG] [mixin]: Adding Surge-1.12.2-2.0.77.jar to reparseable coremod collection
+[16:40:44] [main/DEBUG] [mixin]: Surge-1.12.2-2.0.77.jar has core plugin net.darkhax.surge.core.SurgeLoadingPlugin. Injecting it into FML for co-initialisation:
+[16:40:44] [main/DEBUG] [FML]: Instantiating coremod class SurgeLoadingPlugin
+[16:40:44] [main/DEBUG] [FML]: The coremod net.darkhax.surge.core.SurgeLoadingPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[16:40:44] [main/DEBUG] [FML]: Found signing certificates for coremod SurgeLoadingPlugin (net.darkhax.surge.core.SurgeLoadingPlugin)
+[16:40:44] [main/DEBUG] [FML]: Found certificate d476d1b22b218a10d845928d1665d45fce301b27
+[16:40:44] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[PREINIT]
+[16:40:45] [main/DEBUG] [FML]: Enqueued coremod SurgeLoadingPlugin
+[16:40:45] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Surge-1.12.2-2.0.77.jar
+[16:40:45] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar for mixin tweaker
+[16:40:45] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[16:40:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:40:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:40:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:40:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:45] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[16:40:45] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[16:40:45] [main/DEBUG] [mixin]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[16:40:45] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:40:45] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[16:40:45] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[16:40:45] [main/DEBUG] [FML]: Injection complete
+[16:40:45] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[16:40:45] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[16:40:45] [main/DEBUG] [FML]: Read 1154 binary patches
+[16:40:45] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36076 records
+[16:40:46] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:40:46] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[16:40:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:46] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[16:40:46] [main/DEBUG] [FML]: Injection complete
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[16:40:46] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[16:40:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:46] [main/DEBUG] [FML]: Injecting coremod CoreMod \{aroma1997.core.coremod.CoreMod\} class transformers
+[16:40:46] [main/DEBUG] [FML]: Injection complete
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin for CoreMod \{aroma1997.core.coremod.CoreMod\}
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin CoreMod
+[16:40:46] [main/INFO] [Aroma1997Core]: Finished data injection.
+[16:40:46] [main/INFO] [Aroma1997Core]: Finished data injection.
+[16:40:46] [main/DEBUG] [FML]: Coremod plugin class CoreMod run successfully
+[16:40:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:46] [main/DEBUG] [FML]: Injecting coremod ForgelinPlugin \{net.shadowfacts.forgelin.preloader.ForgelinPlugin\} class transformers
+[16:40:46] [main/DEBUG] [FML]: Injection complete
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin for ForgelinPlugin \{net.shadowfacts.forgelin.preloader.ForgelinPlugin\}
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin ForgelinPlugin
+[16:40:46] [main/DEBUG] [FML]: Coremod plugin class ForgelinPlugin run successfully
+[16:40:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:46] [main/DEBUG] [FML]: Injecting coremod CorePlugin \{bre.smoothfont.asm.CorePlugin\} class transformers
+[16:40:46] [main/TRACE] [FML]: Registering transformer bre.smoothfont.asm.Transformer
+[16:40:46] [main/DEBUG] [FML]: Injection complete
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin for CorePlugin \{bre.smoothfont.asm.CorePlugin\}
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin CorePlugin
+[16:40:46] [main/DEBUG] [FML]: Coremod plugin class CorePlugin run successfully
+[16:40:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:46] [main/DEBUG] [FML]: Injecting coremod SqueezerCore \{shadows.squeezer.SqueezerCore\} class transformers
+[16:40:46] [main/TRACE] [FML]: Registering transformer shadows.squeezer.Transformer
+[16:40:46] [main/DEBUG] [FML]: Injection complete
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin for SqueezerCore \{shadows.squeezer.SqueezerCore\}
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin SqueezerCore
+[16:40:46] [main/DEBUG] [FML]: Coremod plugin class SqueezerCore run successfully
+[16:40:46] [main/INFO] [LaunchWrapper]: Calling tweak class codechicken.asm.internal.Tweaker
+[16:40:46] [main/INFO] [STDOUT]: [codechicken.asm.internal.Tweaker:injectIntoClassLoader:30]: false
+[16:40:46] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[16:40:46] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/malisiscore-1.12.2-6.5.1.jar]
+[16:40:46] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/malisiscore-1.12.2-6.5.1.jar]
+[16:40:46] [main/DEBUG] [mixin]: Registering mixin config: mixins.malisiscore.core.json
+[16:40:46] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Surge-1.12.2-2.0.77.jar]
+[16:40:46] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Surge-1.12.2-2.0.77.jar]
+[16:40:46] [main/DEBUG] [mixin]: Registering mixin config: mixins.surge.json
+[16:40:46] [main/DEBUG] [mixin]: Processing launch tasks for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/malisiscore-1.12.2-6.5.1.jar]
+[16:40:46] [main/DEBUG] [mixin]: Creating FML remapper adapter: org.spongepowered.asm.bridge.RemapperAdapterFML
+[16:40:46] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@29a98d9f
+[16:40:46] [main/DEBUG] [mixin]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/malisiscore-1.12.2-6.5.1.jar]
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/forge-1.12.2-14.23.5.2860.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Apotheosis-1.12.2-1.12.5.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Aroma1997Core-1.12.2-2.0.0.2.b167.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/astralsorcery-1.12.2-1.10.27.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/bedpatch-2.2-1.12.2.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/BNBGamingCore-1.12.2-0.12.0.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/CTM-MC1.12.2-1.0.2.31.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/foamfix-0.10.14-1.12.2.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Forgelin-1.8.4.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Mekanism-1.12.2-9.8.3.390.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/OpenComputers-MC1.12.2-1.7.5.192.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/ResourceLoader-MC1.12.1-1.5.3.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/SmoothFont-mc1.12.2-2.1.2.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/SqueezerPatch-1.12.2-1.0.0.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: Scanning asmgen:/ for mixin tweaker
+[16:40:46] [main/DEBUG] [mixin]: inject() running with 2 agents
+[16:40:46] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/malisiscore-1.12.2-6.5.1.jar]
+[16:40:46] [main/DEBUG] [mixin]: FML agent is co-initiralising coremod instance MalisisCorePlugin {[]} for file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/malisiscore-1.12.2-6.5.1.jar
+[16:40:46] [main/DEBUG] [FML]: Injecting coremod MalisisCorePlugin \{net.malisis.core.asm.MalisisCorePlugin\} class transformers
+[16:40:46] [main/DEBUG] [FML]: Injection complete
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin for MalisisCorePlugin \{net.malisis.core.asm.MalisisCorePlugin\}
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin MalisisCorePlugin
+[16:40:46] [main/DEBUG] [FML]: Coremod plugin class MalisisCorePlugin run successfully
+[16:40:46] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/malisiscore-1.12.2-6.5.1.jar]
+[16:40:46] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentFML:file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Surge-1.12.2-2.0.77.jar]
+[16:40:46] [main/DEBUG] [mixin]: FML agent is co-initiralising coremod instance SurgeLoadingPlugin {[]} for file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Surge-1.12.2-2.0.77.jar
+[16:40:46] [main/DEBUG] [FML]: Injecting coremod SurgeLoadingPlugin \{net.darkhax.surge.core.SurgeLoadingPlugin\} class transformers
+[16:40:46] [main/DEBUG] [FML]: Injection complete
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin for SurgeLoadingPlugin \{net.darkhax.surge.core.SurgeLoadingPlugin\}
+[16:40:46] [main/DEBUG] [FML]: Running coremod plugin SurgeLoadingPlugin
+[16:40:46] [main/DEBUG] [FML]: Coremod plugin class SurgeLoadingPlugin run successfully
+[16:40:46] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:file:/C:/Users/yushu/Downloads/SkyFactory-4_Server_4_2_4/./mods/Surge-1.12.2-2.0.77.jar]
+[16:40:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:40:46] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[16:40:46] [main/INFO] [Astral Core]: [AstralTransformer] Loading patches...
+[16:40:46] [main/INFO] [Astral Core]: [AstralTransformer] Initialized! Loaded 14 class patches!
+[16:40:46] [main/DEBUG] [FML]: Loaded 20 rules from AccessTransformer config file foamfix_runtime_at.cfg
+[16:40:46] [main/DEBUG] [FML]: Loaded 6 rules from AccessTransformer mod jar file .\mods\Inspirations-1.12.2-0.2.9.jar!META-INF/inspirations_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file .\mods\IronJetpacks-1.12-2-1.1.0.jar!META-INF/ironjetpacks_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file .\mods\CalmDownZombieGuy-1.12.2-1.0.0.jar!META-INF/calmdownzombieguy_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file .\mods\witherCrumbs-1.12.2-0.11.jar!META-INF/withercrumbs_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 23 rules from AccessTransformer mod jar file .\mods\astralsorcery-1.12.2-1.10.27.jar!META-INF/astralsorcery_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file .\mods\incontrol-1.12-3.9.16.jar!META-INF/incontrol_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 4 rules from AccessTransformer mod jar file .\mods\Placebo-1.12.2-1.6.0.jar!META-INF/placebo_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 5 rules from AccessTransformer mod jar file .\mods\TipTheScales-1.12.2-1.0.4.jar!META-INF/tipthescales_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 8 rules from AccessTransformer mod jar file .\mods\Mantle-1.12-1.3.3.55.jar!META-INF/mantle_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 16 rules from AccessTransformer mod jar file .\mods\BNBGamingLib-1.12.2-2.17.6.jar!META-INF/bnbgaminglib_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 8 rules from AccessTransformer mod jar file .\mods\Chisel-MC1.12.2-1.0.2.45.jar!META-INF/chisel_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 9 rules from AccessTransformer mod jar file .\mods\OpenComputers-MC1.12.2-1.7.5.192.jar!META-INF/oc_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 50 rules from AccessTransformer mod jar file .\mods\Bookshelf-1.12.2-2.3.590.jar!META-INF/bookshelf_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 6 rules from AccessTransformer mod jar file .\mods\LoadingScreens-1.12.2-0.3.1.jar!META-INF/loadingscreen_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 4 rules from AccessTransformer mod jar file .\mods\ProjectE-1.12.2-PE1.4.1.jar!META-INF/pe_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file .\mods\ResourceLoader-MC1.12.1-1.5.3.jar!META-INF/ResourceLoader_At.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file .\mods\CyclopsCore-1.12.2-1.6.4.jar!META-INF/cyclopscore_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 5 rules from AccessTransformer mod jar file .\mods\CTM-MC1.12.2-1.0.2.31.jar!META-INF/ctm_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 8 rules from AccessTransformer mod jar file .\mods\ClientTweaks_1.12.2-3.1.11.jar!META-INF/clienttweaks_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 3 rules from AccessTransformer mod jar file .\mods\ForgivingVoid_1.12.2-1.1.0.jar!META-INF/forgivingvoid_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 21 rules from AccessTransformer mod jar file .\mods\twilightforest-1.12.2-3.11.1021-universal.jar!META-INF/tf_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 14 rules from AccessTransformer mod jar file .\mods\Mekanism-1.12.2-9.8.3.390.jar!META-INF/mekanism_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 46 rules from AccessTransformer mod jar file .\mods\CodeChickenLib-1.12.2-3.2.3.358-universal.jar!META-INF/ccl_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 12 rules from AccessTransformer mod jar file .\mods\CraftTweaker2-1.12-4.1.20.574.jar!META-INF/crafttweaker_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file .\mods\PickleTweaks-1.12.2-2.1.3.jar!META-INF/pickletweaks_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 3 rules from AccessTransformer mod jar file .\mods\Wawla-1.12.2-2.6.275.jar!META-INF/wawla_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 6 rules from AccessTransformer mod jar file .\mods\MatterOverdrive-1.12.2-0.7.1.0-universal.jar!META-INF/mo_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file .\mods\ForgeMultipart-1.12.2-2.6.2.83-universal.jar!META-INF/fmp_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 5 rules from AccessTransformer mod jar file .\mods\lostcities-1.12-2.0.22.jar!META-INF/lostcities_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 14 rules from AccessTransformer mod jar file .\mods\malisiscore-1.12.2-6.5.1.jar!META-INF/malisiscore_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 13 rules from AccessTransformer mod jar file .\mods\jei_1.12.2-4.15.0.295.jar!META-INF/jei_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 8 rules from AccessTransformer mod jar file .\mods\FastWorkbench-1.12.2-1.7.3.jar!META-INF/fastbench_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 7 rules from AccessTransformer mod jar file .\mods\chiselsandbits-14.33.jar!META-INF/chiselsandbits_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 9 rules from AccessTransformer mod jar file .\mods\LimitlessStructureBlocks-1.12.2-1.1.0.jar!META-INF/limitlessstructureblocks_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file .\mods\appliedenergistics2-rv6-stable-7.jar!META-INF/appeng_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 4 rules from AccessTransformer mod jar file .\mods\FarmingForBlockheads_1.12.2-3.1.28.jar!META-INF/farmingforblockheads_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 9 rules from AccessTransformer mod jar file .\mods\Controlling-3.0.9.jar!META-INF/controlling_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file .\mods\mcjtylib-1.12-3.5.4.jar!META-INF/mcjtylib_ng_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 12 rules from AccessTransformer mod jar file .\mods\SmoothFont-mc1.12.2-2.1.2.jar!META-INF/SmoothFont_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file .\mods\FastFurnace-1.12.2-1.3.1.jar!META-INF/fastfurnace_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 45 rules from AccessTransformer mod jar file .\mods\CoFHCore-1.12.2-4.6.6.1-universal.jar!META-INF/cofh_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file .\mods\DefaultOptions_1.12.2-9.2.8.jar!META-INF/defaultoptions_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 23 rules from AccessTransformer mod jar file .\mods\Topography-1.12.2-1.14.2.jar!META-INF/topography_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 26 rules from AccessTransformer mod jar file .\mods\Triumph-1.12.2-3.19.2.jar!META-INF/triumph_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file .\mods\journeymap-1.12.2-5.7.1.jar!META-INF/journeymap_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 6 rules from AccessTransformer mod jar file .\mods\enderutilities-1.12.2-0.7.15.jar!META-INF/enderutilities_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 3 rules from AccessTransformer mod jar file .\mods\TreeGrowingSimulator2017-1.0.1.jar!META-INF/tgs2016_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 115 rules from AccessTransformer mod jar file .\mods\iChunUtil-1.12.2-7.1.4.jar!META-INF/iChunUtil_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 5 rules from AccessTransformer mod jar file .\mods\Toast Control-1.12.2-1.8.1.jar!META-INF/toastcontrol_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file .\mods\ElevatorMod-1.12.2-1.4.2.jar!META-INF/elevator_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 7 rules from AccessTransformer mod jar file .\mods\Apotheosis-1.12.2-1.12.5.jar!META-INF/apotheosis_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file .\mods\Slab_Machines-1.0.7.jar!META-INF/slabmachines_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file .\mods\EnderStorage-1.12.2-2.4.6.137-universal.jar!META-INF/es_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 39 rules from AccessTransformer mod jar file .\mods\TConstruct-1.12.2-2.13.0.183.jar!META-INF/tconstruct_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 8 rules from AccessTransformer mod jar file .\mods\WorldBook-1.0.0.jar!META-INF/worldbook_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file .\mods\CookingForBlockheads_1.12.2-6.5.0.jar!META-INF/cookingforblockheads_at.cfg
+
+[16:40:46] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file .\mods\BetterAdvancements-1.12.2-0.1.0.77.jar!META-INF/betteradvancements_at.cfg
+
+[16:40:46] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #2
+[16:40:46] [main/DEBUG] [FML]: Validating minecraft
+[16:40:46] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[INIT]
+[16:40:47] [main/DEBUG] [FML]: Minecraft validated, launching...
+[16:40:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:47] [main/DEBUG] [FML]: Injecting coremod ApotheosisCore \{shadows.ApotheosisCore\} class transformers
+[16:40:47] [main/TRACE] [FML]: Registering transformer shadows.ApotheosisTransformer
+[16:40:47] [main/DEBUG] [FML]: Injection complete
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin for ApotheosisCore \{shadows.ApotheosisCore\}
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin ApotheosisCore
+[16:40:47] [main/DEBUG] [FML]: Coremod plugin class ApotheosisCore run successfully
+[16:40:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:47] [main/DEBUG] [FML]: Injecting coremod BedPatch \{com.mordenkainen.bedpatch.BedPatch\} class transformers
+[16:40:47] [main/TRACE] [FML]: Registering transformer com.mordenkainen.bedpatch.BedPatchASM
+[16:40:47] [main/DEBUG] [FML]: Injection complete
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin for BedPatch \{com.mordenkainen.bedpatch.BedPatch\}
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin BedPatch
+[16:40:47] [main/DEBUG] [FML]: Coremod plugin class BedPatch run successfully
+[16:40:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:47] [main/DEBUG] [FML]: Injecting coremod BNBGamingCore \{com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin\} class transformers
+[16:40:47] [main/INFO] [BnBGamingCore]: Minecraft version is 1.12.2 and BNBGamingCore accepts versions 1.12, . It will be registered.
+[16:40:47] [main/INFO] [BnBGamingCore]: Minecraft version is 1.12.2 and BNBGamingCore accepts versions 1.12, . It will be registered.
+[16:40:47] [main/TRACE] [FML]: Registering transformer com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCoreClassTransformer
+[16:40:47] [main/DEBUG] [FML]: Injection complete
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin for BNBGamingCore \{com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin\}
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin BNBGamingCore
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Found 221 mods.
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Found mod with correct manifest attribute. .\mods\HurtAnimationRemover-1.12.2-1.0.0.jar
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Attribute string: HurtCameraEffectEvent
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Found mod with correct manifest attribute. .\mods\Topography-1.12.2-1.14.2.jar
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Attribute string: StructureVillageFillBlocksDown
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Found mod with correct manifest attribute. .\mods\Triumph-1.12.2-3.19.2.jar
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Attribute string: AdvancementBuildEvent, FunctionReloadEvent$Post, AdvancementCriterionCompletedEvent, AdvancementAboutToLoadEvent, AdvancementSync, GrantCriterionEvent, AdvancementVisibilityEvent, AdvancementCompletionEvent
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Disabled ASM module itemRightClickEvent
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Disabled ASM module buildDamageSourceList
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Disabled ASM module registerWorldEvent
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Disabled ASM module transformMapGenBase
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Disabled ASM module transformMapGenStructure
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Disabled ASM module createChunkGeneratorEvent
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Disabled ASM module worldServerEvents
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Disabled ASM module minecraftServerPostTickEvent
+[16:40:47] [main/DEBUG] [BnBGamingCore]: Disabled ASM module mobSpawningEvent
+[16:40:47] [main/DEBUG] [FML]: Coremod plugin class BNBGamingCorePlugin run successfully
+[16:40:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:47] [main/DEBUG] [FML]: Injecting coremod Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) \{pl.asie.foamfix.coremod.FoamFixCore\} class transformers
+[16:40:47] [main/TRACE] [FML]: Registering transformer pl.asie.foamfix.coremod.FoamFixTransformer
+[16:40:47] [main/DEBUG] [FML]: Injection complete
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin for Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) \{pl.asie.foamfix.coremod.FoamFixCore\}
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.)
+[16:40:47] [main/DEBUG] [FML]: Coremod plugin class FoamFixCore run successfully
+[16:40:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:47] [main/DEBUG] [FML]: Injecting coremod TransformerLoader \{li.cil.oc.common.launch.TransformerLoader\} class transformers
+[16:40:47] [main/TRACE] [FML]: Registering transformer li.cil.oc.common.asm.ClassTransformer
+[16:40:47] [main/DEBUG] [FML]: Injection complete
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin for TransformerLoader \{li.cil.oc.common.launch.TransformerLoader\}
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin TransformerLoader
+[16:40:47] [main/DEBUG] [FML]: Coremod plugin class TransformerLoader run successfully
+[16:40:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:47] [main/DEBUG] [FML]: Injecting coremod LoadingPlugin \{lumien.resourceloader.asm.LoadingPlugin\} class transformers
+[16:40:47] [main/TRACE] [FML]: Registering transformer lumien.resourceloader.asm.ClassTransformer
+[16:40:47] [main/DEBUG] [FML]: Injection complete
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin for LoadingPlugin \{lumien.resourceloader.asm.LoadingPlugin\}
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin LoadingPlugin
+[16:40:47] [main/DEBUG] [FML]: Coremod plugin class LoadingPlugin run successfully
+[16:40:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:47] [main/DEBUG] [FML]: Injecting coremod AstralCore \{hellfirepvp.astralsorcery.core.AstralCore\} class transformers
+[16:40:47] [main/DEBUG] [FML]: Injection complete
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin for AstralCore \{hellfirepvp.astralsorcery.core.AstralCore\}
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin AstralCore
+[16:40:47] [main/DEBUG] [FML]: Coremod plugin class AstralCore run successfully
+[16:40:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:47] [main/DEBUG] [FML]: Injecting coremod MekanismCoremod \{mekanism.coremod.MekanismCoremod\} class transformers
+[16:40:47] [main/TRACE] [FML]: Registering transformer mekanism.coremod.KeybindingMigrationHelper
+[16:40:47] [main/DEBUG] [FML]: Injection complete
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin for MekanismCoremod \{mekanism.coremod.MekanismCoremod\}
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin MekanismCoremod
+[16:40:47] [main/DEBUG] [FML]: Coremod plugin class MekanismCoremod run successfully
+[16:40:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:47] [main/DEBUG] [FML]: Injecting coremod CTMCorePlugin \{team.chisel.ctm.client.asm.CTMCorePlugin\} class transformers
+[16:40:47] [main/TRACE] [FML]: Registering transformer team.chisel.ctm.client.asm.CTMTransformer
+[16:40:47] [main/DEBUG] [FML]: Injection complete
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin for CTMCorePlugin \{team.chisel.ctm.client.asm.CTMCorePlugin\}
+[16:40:47] [main/DEBUG] [FML]: Running coremod plugin CTMCorePlugin
+[16:40:47] [main/DEBUG] [FML]: Coremod plugin class CTMCorePlugin run successfully
+[16:40:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:40:47] [main/DEBUG] [FML]: Injecting coremod EnderCorePlugin \{com.enderio.core.common.transform.EnderCorePlugin\} class transformers
+[16:40:47] [main/TRACE] [FML]: Registering transformer com.enderio.core.common.transform.EnderCoreTransformer
+[16:40:47] [main/TRACE] [FML]: Registering transformer com.enderio.core.common.transform.SimpleMixinPatcher
+[16:40:48] [main/DEBUG] [FML]: Injection complete
+[16:40:48] [main/DEBUG] [FML]: Running coremod plugin for EnderCorePlugin \{com.enderio.core.common.transform.EnderCorePlugin\}
+[16:40:48] [main/DEBUG] [FML]: Running coremod plugin EnderCorePlugin
+[16:40:48] [main/DEBUG] [FML]: Coremod plugin class EnderCorePlugin run successfully
+[16:40:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:40:48] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:40:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:40:48] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:40:48] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #3
+[16:40:48] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[DEFAULT]
+[16:40:48] [main/DEBUG] [mixin]: Selecting config mixins.malisiscore.core.json
+[16:40:48] [main/DEBUG] [mixin]: Selecting config mixins.surge.json
+[16:40:48] [main/DEBUG] [mixin]: Preparing mixins.malisiscore.core.json (10)
+[16:40:48] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[16:40:48] [main/DEBUG] [mixin]: Rebuilding transformer delegation list:
+[16:40:48] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.bre.smoothfont.asm.Transformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.shadows.squeezer.Transformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    codechicken.asm.internal.SnifferTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    hellfirepvp.astralsorcery.core.AstralTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    pl.asie.foamfix.coremod.FoamFixAT
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.shadows.ApotheosisTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.mordenkainen.bedpatch.BedPatchASM
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCoreClassTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.pl.asie.foamfix.coremod.FoamFixTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.li.cil.oc.common.asm.ClassTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.lumien.resourceloader.asm.ClassTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.mekanism.coremod.KeybindingMigrationHelper
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.team.chisel.ctm.client.asm.CTMTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.enderio.core.common.transform.EnderCoreTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.enderio.core.common.transform.SimpleMixinPatcher
+[16:40:48] [main/DEBUG] [mixin]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[16:40:48] [main/DEBUG] [mixin]: Transformer delegation list created with 26 entries
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Transforming amu : net.minecraft.world.World with 2 patches!
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Skipping PATCHSUNBRIGHTNESSWORLDCLIENT as it can't be applied for side SERVER
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHSUNBRIGHTNESSWORLDCOMMON
+[16:40:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[16:40:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:141]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/World to metadata cache
+[16:40:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:57]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/WorldServer to metadata cache
+[16:40:48] [main/INFO] [BedPatch]: Patching Chunk
+[16:40:48] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[16:40:48] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[16:40:48] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.pl.asie.foamfix.coremod.FoamFixTransformer' was detected and will no longer process meta class data
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/chunk/Chunk to metadata cache
+[16:40:48] [main/DEBUG] [mixin]: Rebuilding transformer delegation list:
+[16:40:48] [main/DEBUG] [mixin]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.bre.smoothfont.asm.Transformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.shadows.squeezer.Transformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    codechicken.asm.internal.SnifferTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    hellfirepvp.astralsorcery.core.AstralTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    pl.asie.foamfix.coremod.FoamFixAT
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.shadows.ApotheosisTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.mordenkainen.bedpatch.BedPatchASM
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCoreClassTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Excluding: $wrapper.pl.asie.foamfix.coremod.FoamFixTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.li.cil.oc.common.asm.ClassTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.lumien.resourceloader.asm.ClassTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.mekanism.coremod.KeybindingMigrationHelper
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.team.chisel.ctm.client.asm.CTMTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.enderio.core.common.transform.EnderCoreTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Adding:    $wrapper.com.enderio.core.common.transform.SimpleMixinPatcher
+[16:40:48] [main/DEBUG] [mixin]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[16:40:48] [main/DEBUG] [mixin]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[16:40:48] [main/DEBUG] [mixin]: Transformer delegation list created with 25 entries
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/item/ItemBlock to metadata cache
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Transforming pa : net.minecraft.network.NetHandlerPlayServer with 1 patches!
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHSERVEREXTENDENTITYINTERACTREACH
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/network/NetHandlerPlayServer to metadata cache
+[16:40:48] [main/DEBUG] [mixin]: Preparing mixins.surge.json (9)
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/passive/EntitySheep to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/Entity to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/item/EntityItem to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/registries/GameData to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/common/util/Constants$NBT to metadata cache
+[16:40:48] [main/DEBUG] [mixin]: Prepared 10 mixins in 0.409 sec (40.9ms avg) (2ms load, 244ms transform, 0ms plugin)
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Transforming amu : net.minecraft.world.World with 2 patches!
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Skipping PATCHSUNBRIGHTNESSWORLDCLIENT as it can't be applied for side SERVER
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHSUNBRIGHTNESSWORLDCOMMON
+[16:40:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[16:40:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:141]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[16:40:48] [main/DEBUG] [mixin]: Mixing MixinClientNotif$MixinWorld from mixins.malisiscore.core.json into net.minecraft.world.World
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/malisis/core/util/clientnotif/ClientNotificationManager to metadata cache
+[16:40:48] [main/DEBUG] [mixin]: Mixing MixinChunkCollision$MixinWorld from mixins.malisiscore.core.json into net.minecraft.world.World
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/malisis/core/util/Point to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for org/apache/commons/lang3/tuple/Pair to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for java/io/Serializable to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for java/lang/Comparable to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for java/util/Map$Entry to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/malisis/core/util/chunkcollision/ChunkCollision to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/BlockPos to metadata cache
+[16:40:48] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[16:40:48] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/block/Block to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfo to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/Vec3d to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/RayTraceResult to metadata cache
+[16:40:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:57]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[16:40:48] [main/DEBUG] [mixin]: Mixing MixinClientNotif$MixinWorldServer from mixins.malisiscore.core.json into net.minecraft.world.WorldServer
+[16:40:48] [main/DEBUG] [BnBGamingCore]: Attempting to transform method func_193059_f in class net.minecraft.advancements.FunctionManager
+[16:40:48] [main/DEBUG] [BnBGamingCore]: Successfully transformed method func_193059_f in class net.minecraft.advancements.FunctionManager
+[16:40:48] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.player.EntityPlayer finished, added func_184613_cA() overriding EntityLivingBase
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Transforming vp : net.minecraft.entity.EntityLivingBase with 4 patches!
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHAPPLYPOTIONEFFECTEVENT
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHENTITYLIVINGBASEWATERSLOWDOWN
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHSETPLAYERATTRIBUTE
+[16:40:48] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHUPDATEELYTRA
+[16:40:48] [main/INFO] [Apotheosis : Core]: Transforming EntityLivingBase...
+[16:40:48] [main/INFO] [Apotheosis : Core]: Successfully transformed EntityLivingBase
+[16:40:48] [main/DEBUG] [mixin]: Mixing minecraft.entity.MixinEntity from mixins.surge.json into net.minecraft.entity.Entity
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/darkhax/surge/core/SurgeConfiguration to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/math/AxisAlignedBB to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/nbt/NBTTagCompound to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for net/minecraft/nbt/NBTTagList to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for java/util/List to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for java/util/ArrayList to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for java/util/AbstractList to metadata cache
+[16:40:48] [main/TRACE] [mixin]: Added class metadata for java/util/AbstractCollection to metadata cache
+[16:40:48] [main/DEBUG] [BnBGamingCore]: Attempting to transform method func_192779_a in class net.minecraft.advancements.AdvancementManager
+[16:40:48] [main/DEBUG] [BnBGamingCore]: Successfully transformed method func_192779_a in class net.minecraft.advancements.AdvancementManager
+[16:40:48] [main/DEBUG] [BnBGamingCore]: Attempting to transform method func_192779_a in class net.minecraft.advancements.AdvancementManager
+[16:40:48] [main/DEBUG] [BnBGamingCore]: Successfully transformed method func_192779_a in class net.minecraft.advancements.AdvancementManager
+[16:40:48] [main/DEBUG] [BnBGamingCore]: Attempting to transform method func_192781_c in class net.minecraft.advancements.AdvancementManager
+[16:40:48] [main/DEBUG] [BnBGamingCore]: Attempting to transform method func_192777_a in class net.minecraft.advancements.AdvancementManager
+[16:40:48] [main/DEBUG] [BnBGamingCore]: Successfully transformed method func_192777_a in class net.minecraft.advancements.AdvancementManager
+[16:40:49] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:40:49] [main/WARN] [net.minecraft.server.ServerEula]: Failed to load eula.txt
+[16:40:49] [main/INFO] [net.minecraft.server.MinecraftServer]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
