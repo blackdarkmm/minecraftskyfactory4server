@@ -150,8 +150,24 @@ jobs:
 
       - name: 即時顯示 Minecraft Server Log
         run: |
+          echo "📜 等待 server.log 產生..."
+
+          for i in {1..60}; do
+            if [ -f logs/server.log ]; then
+              echo "✅ server.log 已存在，開始追蹤"
+              break
+            fi
+            echo "⏳ 尚未產生 server.log，等待 2 秒... ($i/60)"
+            sleep 2
+          done
+
+          if [ ! -f logs/server.log ]; then
+            echo "❌ 等待超時，server.log 仍未出現"
+            exit 1
+          fi
+
           echo "📜 開始追蹤 server log..."
-          timeout 5h tail -f logs/server.log
+          timeout 5h tail -n +1 -f logs/server.log
 
       - name: Minecraft Server 運行中（最多 5 小時或手動關閉）
         run: |
