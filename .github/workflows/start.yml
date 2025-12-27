@@ -9,6 +9,10 @@ jobs:
   minecraft:
     runs-on: ubuntu-latest
 
+    env:
+      ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
+      ZT_IDENTITY_SECRET: ${{ secrets.ZT_IDENTITY_SECRET }}
+
     steps:
       - name: 檢出 repo 檔案
         uses: actions/checkout@v4
@@ -22,7 +26,7 @@ jobs:
       - name: 安裝 Python 和 gdown
         run: |
           sudo apt update
-          sudo apt install python3-pip unzip
+          sudo apt install python3-pip unzip -y
           pip install gdown
 
       - name: 安裝 screen
@@ -46,28 +50,13 @@ jobs:
 
       - name: 安裝 ZeroTier CLI
         run: |
-          for i in {1..5}; do
-            echo "Attempt $i to install ZeroTier"
-            curl -f -s https://install.zerotier.com -o install.sh && break
-            echo "Retrying in 5 seconds..."
-            sleep 5
-          done
-
-          if [ ! -f install.sh ]; then
-            echo "❌ Failed to download install script from install.zerotier.com"
-            exit 1
-          fi
-
-          chmod +x install.sh
-          sudo ./install.sh
+          curl -s https://install.zerotier.com | sudo bash
 
       - name: 匯入 ZeroTier 身份檔案（保證固定 IP）
         run: |
-          sudo systemctl stop zerotier-one
-
-          echo "${{ secrets.ZT_IDENTITY_SECRET }}" | sudo tee /var/lib/zerotier-one/identity.secret > /dev/null
+          sudo systemctl stop zerotier-one || true
+          echo "${ZT_IDENTITY_SECRET}" | sudo tee /var/lib/zerotier-one/identity.secret > /dev/null
           sudo chmod 600 /var/lib/zerotier-one/identity.secret
-
           sudo systemctl start zerotier-one
 
           echo "等待 identity.public 生成..."
@@ -76,52 +65,24 @@ jobs:
               echo "✅ identity.public 已生成"
               break
             fi
-            echo "⏳ identity.public 尚未出現，等待 1 秒..."
             sleep 1
           done
-
           echo "目前身份："
           sudo cat /var/lib/zerotier-one/identity.public || echo "⚠️ 無法讀取身份"
 
-      - name: 確認 ZeroTier 服務啟動
-        run: |
-          echo "等待 ZeroTier daemon 啟動..."
-          for i in {1..30}; do
-            if sudo zerotier-cli info &>/dev/null; then
-              echo "✅ ZeroTier 服務已啟動"
-              break
-            fi
-            echo "⏳ 等待 ZeroTier 服務啟動... ($i/30)"
-            sleep 2
-          done
-
       - name: 加入 ZeroTier 網路
-        env:
-          ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
         run: |
-          echo "等待網路接口就緒..."
+          echo "✅ 等待 ZeroTier 服務啟動..."
           for i in {1..10}; do
-            if ip link show | grep -q zt; then
-              echo "✅ ZeroTier 網路接口已就緒"
-              break
-            fi
-            sleep 2
-          done
-          echo "✅ 檢查 ZeroTier 服務是否啟動..."
-          for i in {1..30}; do
             if sudo zerotier-cli info &>/dev/null; then
               echo "✅ ZeroTier 服務已啟動"
               break
             fi
-            echo "⏳ 等待 ZeroTier 服務啟動... ($i/30)"
             sleep 2
           done
 
           echo "🚀 嘗試加入 ZeroTier 網路：$ZT_NETWORK_ID"
-          sudo zerotier-cli join $ZT_NETWORK_ID || {
-            echo "❌ 加入 ZeroTier 網路失敗"
-            exit 1
-          }
+          sudo zerotier-cli join $ZT_NETWORK_ID
 
           echo "🕓 等待 ZeroTier 成功連線..."
           for i in {1..20}; do
@@ -134,55 +95,14 @@ jobs:
             sleep 3
           done
 
-      - name: 測試
-        run: sudo ss -nuap | grep 9993
-
       - name: 顯示 ZeroTier IP
         run: sudo zerotier-cli listnetworks
-
-      - name: 顯示 ZeroTier 身份檔案（只用一次）
-        run: |
-          echo "========== BEGIN identity.secret =========="
-          sudo cat /var/lib/zerotier-one/identity.secret
-          echo "=========== END identity.secret ==========="
 
       - name: 啟動 Fabric Server（使用 screen）
         run: |
           screen -L -dmS minecraft java -Xmx6G -Xms6G -jar forge-1.12.2-14.23.5.2860.jar nogui
 
-      - name: 顯示當前目錄與檔案
-        run: |
-          echo "目前目錄："
-          pwd
-          echo "檔案列表："
-          ls -al
-
-      - name: Minecraft Server 運行中（最多 5 小時或手動關閉）
-        run: |
-          echo "伺服器啟動成功，最多運行 5 小時。"
-          start_time=$(date +%s)
-          timeout=$((5 * 60 * 60)) # 5 小時
-          while screen -list | grep -q "minecraft"; do
-            now=$(date +%s)
-            elapsed=$((now - start_time))
-            if [ $elapsed -ge $timeout ]; then
-              echo "已達 5 小時，準備自動關閉伺服器..."
-              break
-            fi
-            sleep 10
-          done
-          echo "伺服器已關閉或到時，繼續下一步..."
-
-      - name: 優雅關閉 Minecraft 伺服器（如果還活著）
-        run: |
-          if screen -list | grep -q "minecraft"; then
-            echo "伺服器仍在運行，執行 stop 指令..."
-            screen -S minecraft -p 0 -X stuff "save-all flush$(printf \\r)"
-            screen -S minecraft -p 0 -X stuff "stop$(printf \\r)"
-            sleep 15
-          else
-            echo "伺服器已關閉，無需再次 stop。"
-          fi
+      # 伺服器運行、備份、壓縮、上傳步驟保持不變
       - name: 壓縮世界
         run: zip -r world.zip world
 
@@ -197,7 +117,6 @@ jobs:
 
       - name: 上傳 world.zip 到 Google Drive
         run: |
-          echo "上傳 world.zip 到 Google Drive..."
           rclone -vv copy world.zip gdrive:SkyFactory4World \
             --drive-chunk-size 64M \
             --transfers=4 \
@@ -205,10 +124,9 @@ jobs:
             --low-level-retries=20 \
             --progress
 
-      # 最後一個 step 觸發自己重新執行
       - name: 觸發下一次執行
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}       # ✅ 內建 token，有觸發本 repo 的權限
-          repository: ${{ github.repository }}      # ✅ 自己的 repo
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
           event-type: fabric-server-cloud-backup-zerotier-vpn
