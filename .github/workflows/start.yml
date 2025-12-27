@@ -92,6 +92,14 @@ jobs:
         env:
           ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
         run: |
+          echo "等待網路接口就緒..."
+          for i in {1..10}; do
+            if ip link show | grep -q zt; then
+              echo "✅ ZeroTier 網路接口已就緒"
+              break
+            fi
+            sleep 2
+          done
           echo "✅ 檢查 ZeroTier 服務是否啟動..."
           for i in {1..30}; do
             if sudo zerotier-cli info &>/dev/null; then
