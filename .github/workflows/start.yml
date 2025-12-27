@@ -93,12 +93,12 @@ jobs:
           ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
         run: |
           echo "✅ 檢查 ZeroTier 服務是否啟動..."
-          for i in {1..10}; do
+          for i in {1..30}; do
             if sudo zerotier-cli info &>/dev/null; then
               echo "✅ ZeroTier 服務已啟動"
               break
             fi
-            echo "⏳ 等待 ZeroTier 服務啟動... ($i/10)"
+            echo "⏳ 等待 ZeroTier 服務啟動... ($i/30)"
             sleep 2
           done
 
