@@ -71,7 +71,7 @@ jobs:
               echo "✅ ZeroTier daemon 已就緒"
               break
             fi
-            echo "尚未就緒，等待中... ($i/20)"
+            echo "尚未就緒，等待中... ($i/50)"
             sleep 2
           done
 
@@ -79,7 +79,7 @@ jobs:
           sudo zerotier-cli join "$ZT_NETWORK_ID"
 
           echo "⏳ 等待網路狀態 OK..."
-          for i in {1..20}; do
+          for i in {1..50}; do
             STATUS=$(sudo zerotier-cli listnetworks | grep "$ZT_NETWORK_ID" | awk '{print $5}')
             echo "目前狀態：$STATUS"
             if [ "$STATUS" = "OK" ]; then
