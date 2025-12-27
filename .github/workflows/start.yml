@@ -1,4 +1,4 @@
-name: Fabric Server - 雲端世界備份 (ZeroTier VPN)
+name: Forge Server - 雲端世界備份 (ZeroTier VPN)
 
 on:
   workflow_dispatch:
@@ -221,7 +221,7 @@ jobs:
       - name: 上傳 world.zip 到 Google Drive
         run: |
           echo "上傳 world.zip 到 Google Drive..."
-          rclone -vv copy world.zip gdrive:minecraft_world \
+          rclone -vv copy world.zip gdrive:SkyFactory4World \
             --drive-chunk-size 64M \
             --transfers=4 \
             --retries=10 \
