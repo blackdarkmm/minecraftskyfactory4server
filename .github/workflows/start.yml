@@ -33,12 +33,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: 初始化 Node.js 並安裝 Express
-        run: |
-          cd minecraft-log-stream
-          npm init -y
-          npm install express
-
       - name: 下載 world.zip（從 Google Drive）
         env:
           FILE_ID: ${{ secrets.GDRIVE_FILE_ID }}
@@ -140,38 +134,6 @@ jobs:
       - name: 啟動 Fabric Server（使用 screen）
         run: |
           screen -L -dmS minecraft java -Xmx6G -Xms6G -jar forge-1.12.2-14.23.5.2860.jar nogui
-
-          # 啟動 API 服務
-          cd minecraft-log-stream
-          nohup node api.js > api.log 2>&1 &
-
-          # 等待 API 健康檢查成功
-          for i in {1..30}; do
-            if curl --silent --fail http://localhost:3000/health >/dev/null; then
-              echo "API is up!"
-              break
-            else
-              echo "Waiting for API..."
-              sleep 1
-            fi
-          done
-
-      - name: 啟動 Log Viewer Server
-        run: |
-          cd minecraft-log-stream
-          nohup node server.js > /dev/null 2>&1 &
-          echo "Node server 已啟動於背景"
-
-              # 健康檢查循環：等候 API 回應成功為止
-          for i in {1..30}; do
-            if curl --silent --fail http://localhost:3000/health >/dev/null; then
-              echo "API is up!"
-              break
-            else
-              echo "Waiting for API..."
-              sleep 1
-            fi
-          done
 
       - name: 顯示當前目錄與檔案
         run: |
