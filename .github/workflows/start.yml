@@ -9,9 +9,6 @@ jobs:
   minecraft:
     runs-on: ubuntu-latest
 
-    env:
-      API_TOKEN: ${{ secrets.API_TOKEN }}
-
     steps:
       - name: 檢出 repo 檔案
         uses: actions/checkout@v4
