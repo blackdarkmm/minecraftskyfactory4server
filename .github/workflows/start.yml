@@ -97,52 +97,55 @@ jobs:
           echo "目前身份："
           sudo cat /var/lib/zerotier-one/identity.public || echo "⚠️ 無法讀取身份"
 
-      - name: 加入 ZeroTier 網路 (強效啟動版)
+      - name: 加入 ZeroTier 網路 (修復權限與路徑)
         env:
           ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
         run: |
-          # 1. 徹底清除衝突
+          # 1. 清理舊進程
           sudo pkill -9 zerotier-one || true
           
-          # 2. 建立日誌檔案避免輸出阻塞
-          sudo touch /var/log/zerotier.log
-          
-          # 3. 關鍵修正：使用 nohup 將服務完全脫離終端機，防止 GitHub 誤判
-          # 即使報錯也會強制繼續執行下一行 (|| true)
-          sudo nohup zerotier-one > /var/log/zerotier.log 2>&1 &
+          # 2. 修改日誌路徑到 runner 擁有權限的地方 (家目錄)
+          # 使用 sudo nohup 並將輸出導入家目錄下的檔案
+          sudo nohup zerotier-one > $HOME/zerotier_startup.log 2>&1 &
           
           echo "⏳ 等待服務背景初始化..."
           for i in {1..15}; do
-            # 檢查服務是否真的動起來了
+            # 使用 cli info 檢查服務是否啟動
             if sudo zerotier-cli info > /dev/null 2>&1; then
-              echo "✅ ZeroTier 服務已成功於背景啟動"
+              echo "✅ ZeroTier 服務已在背景運行"
               break
             fi
+            [ $i -eq 15 ] && { echo "❌ 服務啟動超時，日誌內容："; cat $HOME/zerotier_startup.log; exit 1; }
             echo "⏳ 等待中... ($i/15)"
             sleep 2
           done
 
-          # 4. 執行加入
+          # 3. 執行加入
           echo "🚀 執行 Join 指令..."
-          # 加入成功或失敗都透過 listnetworks 判斷，不讓 join 指令直接中斷 Workflow
-          sudo zerotier-cli join $ZT_NETWORK_ID || echo "⚠️ Join 命令返回非零狀態，繼續檢查網路..."
+          sudo zerotier-cli join $ZT_NETWORK_ID
 
-          # 5. 輪詢狀態
+          # 4. 輪詢連線狀態
           echo "🕓 正在等待連線 OK..."
           for i in {1..20}; do
             NET_INFO=$(sudo zerotier-cli listnetworks | grep $ZT_NETWORK_ID)
             STATUS=$(echo $NET_INFO | awk '{print $5}')
             
             if [ "$STATUS" == "OK" ]; then
-              echo "✅ 連線成功！網路資訊：$NET_INFO"
+              echo "✅ 連線成功！"
+              echo "網路資訊：$NET_INFO"
               exit 0
+            fi
+            
+            if [ "$STATUS" == "ACCESS_DENIED" ]; then
+              echo "❌ 存取被拒絕！請至 ZeroTier 控制台授權此 Node ID。"
+              exit 1
             fi
             
             echo "目前狀態: [$STATUS]，等待中..."
             sleep 3
           done
 
-          echo "❌ 超時：無法連線至 ZeroTier 網路"
+          echo "❌ 超時：無法連線至網路"
           exit 1
 
       - name: 測試
